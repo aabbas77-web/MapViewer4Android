@@ -11,4 +11,6 @@ MapViewer for Android (2D Maps, DJI Drones Missions, WIFI & DATA SIM Communicati
 
 [![MapViewer4Android](https://github.com/aabbas77-web/MapViewer4Android/releases/download/FirstRelease/MapViewer4AndroidVideo.png)](https://www.youtube.com/watch?v=4eYU6ye_xGc)
 
+https://github.com/aabbas77-web/MapViewer4Android/releases/download/FirstRelease/MapViewer_release_2025_09_03_V4.0.5.apk
+
 
