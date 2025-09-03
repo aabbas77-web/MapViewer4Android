@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_mark3_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="@string/name"
+        android:inputType="text" />
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weapon_type"
+            android:id="@+id/rb_weapon_type"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:id="@+id/rb_details"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/members"
+            android:id="@+id/rb_members"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:layout_weight="0.13" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ll_weapon_type"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/weapon_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_weapon_type"
+            android:hint="@string/weapon"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:autofillHints="@string/weapon"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_details"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <EditText
+                android:id="@+id/et_details"
+                android:inputType="text|textMultiLine|textCapSentences"
+                android:lines="8"
+                android:minLines="6"
+                android:gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:scrollbars="vertical"
+                android:imeOptions="actionNone"
+                android:scrollHorizontally="false"
+                tools:ignore="Autofill,LabelFor" />
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_members"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b_add_member"
+                android:text="@string/add_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/et_member_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="ltr"
+                tools:ignore="Autofill,LabelFor,TextFields" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_members"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

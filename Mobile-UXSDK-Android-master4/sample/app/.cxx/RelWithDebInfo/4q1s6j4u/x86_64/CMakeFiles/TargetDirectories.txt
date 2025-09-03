@@ -1,0 +1,3 @@
+D:/Ali/Geoscan/SDK/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/4q1s6j4u/x86_64/CMakeFiles/native-lib.dir
+D:/Ali/Geoscan/SDK/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/4q1s6j4u/x86_64/CMakeFiles/edit_cache.dir
+D:/Ali/Geoscan/SDK/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/4q1s6j4u/x86_64/CMakeFiles/rebuild_cache.dir

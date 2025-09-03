@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_mark1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="@string/name"
+        android:inputType="text" />
+
+    <TextView
+        android:text="@string/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/comment"
+        android:inputType="text"
+        android:autofillHints="@string/comment" />
+
+    <TextView
+        android:text="@string/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_details"
+        android:inputType="text|textMultiLine|textCapSentences"
+        android:lines="8"
+        android:minLines="6"
+        android:gravity="top|start"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:imeOptions="actionNone"
+        android:scrollHorizontally="false"
+        android:hint="@string/details"
+        android:autofillHints="" />
+
+</LinearLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_sys_id"
+            android:background="@drawable/customborder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_sys_id"
+                android:text="@string/mapviewer"
+                android:layout_width="wrap_content"
+                android:textColor="@color/red"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_sn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="16"
+                android:text=""
+                android:hint="@string/secret_number"
+                android:inputType="number"
+                android:textAlignment="center"
+                tools:ignore="Autofill,LabelFor"/>
+
+            <Button
+                android:id="@+id/b_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register" />
+
+            <Button
+                android:id="@+id/b_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/load" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customborder"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b_maps_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maps_path"/>
+
+                <Button
+                    android:id="@+id/b_show_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/show_log"/>
+
+                <Button
+                    android:id="@+id/b_send_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_log"/>
+
+                <Button
+                    android:id="@+id/b_delete_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete_log"/>
+
+                <Button
+                    android:id="@+id/b_clear_cache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="Clear Cache"/>
+
+                <Button
+                    android:id="@+id/b_delete_roots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="Delete Roots"/>
+
+                <Button
+                    android:id="@+id/b_main_root"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="Main Root"/>
+
+                <Button
+                    android:id="@+id/b_sd_root"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="SD Root"/>
+
+                <Button
+                    android:id="@+id/b_file_server"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="File Server"/>
+
+                <CheckBox
+                    android:id="@+id/cb_development"
+                    android:text="@string/development"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:id="@+id/hsv_development"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customborder"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/customborder"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/et_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:ems="16"
+                        android:text=""
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:textAlignment="center"
+                        tools:ignore="Autofill,LabelFor"/>
+
+                    <Button
+                        android:id="@+id/b_change_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/change" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/sw_debug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/debug" />
+
+                <CheckBox
+                    android:id="@+id/cb_emulator"
+                    android:text="@string/emulator"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox
+                    android:id="@+id/cb_auto_start_service"
+                    android:text="@string/auto_start_service"
+                    android:visibility="visible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox
+                    android:id="@+id/cb_enable_data_sim"
+                    android:text="@string/enable_data_sim"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/customborder"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/et_encryption_key"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:ems="16"
+                        android:maxLength="16"
+                        android:text=""
+                        android:hint="@string/encryption_key"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        tools:ignore="Autofill,LabelFor"/>
+
+                    <Button
+                        android:id="@+id/b_change_encryption_key"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/change" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/b_information"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/information"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollHorizontally="true"
+                android:text="@string/mapviewer" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

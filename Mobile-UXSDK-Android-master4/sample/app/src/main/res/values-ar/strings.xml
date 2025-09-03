@@ -1,0 +1,720 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="PrivateResource">MapViewer4</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="camera_not_found">الكاميرا غير متاحة</string>
+    <string name="localize">موقع الهدف</string>
+    <string name="description_info">حول</string>
+    <string name="request_permission">هذا التطبيق بحاجة لسماحية الكاميرا</string>
+    <string name="camera_error">لا يدعم هذا الجهاز الكاميرا</string>
+    <string name="intro_message">جندي المستقبل:
+جندي المستقبل هو مصطلح يُستخدم لوصف الجندي المتطور الذي يمتلك مهارات وقدرات عقلية وبدنية متقدمة تتجاوز قدرات الجنود التقليديين والذي يتم تدريبه باستخدام التكنولوجيا ويستخدم التقنيات المتقدمة في مجال القتال، يتضمن ذلك استخدام الذكاء الاصطناعي والواقع المعزز، والأسلحة الذاتية، والروبوتات، والطائرات بدون طيار. يعتبر جندي المستقبل جزءًا من تطوير القوات المسلحة والأمن الوطني لتحسين قدرة الدفاع عن البلد وتحسين الأمن والاستقرار، كما يهدف هذا المفهوم إلى خلق جيل جديد من المحاربين يتمتعون بفعالية قتالية استثنائية وقدرة على التكيف مع مختلف الظروف في ساحات المعركة المستقبلية.</string>
+    <string name="mapviewer">مستعرض الخرائط</string>
+    <string name="gps_lat">خط عرض الكاميرا</string>
+    <string name="gps">الموقع الجغرافي</string>
+    <string name="gps_lon">خط طول الكاميرا</string>
+    <string name="camera_height_above_ground">ارتفاع الكاميرا</string>
+    <string name="yaw">زاوية السمت</string>
+    <string name="pitch">زاوية الرفع</string>
+    <string name="roll">زاوية الدوران</string>
+    <string name="uav_yaw">زاوية سمت الطائرة</string>
+    <string name="uav_pitch">زاوية رفع الطائرة</string>
+    <string name="uav_roll">زاوية دوران الطائرة</string>
+    <string name="orientation_sensors">الحساسات الزاوية</string>
+    <string name="name">الاسم</string>
+    <string name="gps_alt">ارتفاع الكاميرا</string>
+    <string name="uav_alt_above_ground">ارتفاع الطائرة فوق سطح الأرض</string>
+    <string name="uav_ground_alt">ارتفاع سطح الأرض تحت الطائرة</string>
+    <string name="register">تسجيل</string>
+    <string name="change_camera_position">الكاميرا</string>
+    <string name="change_target_position">الهدف</string>
+    <string name="internet">انترنت</string>
+    <string name="estimate">تقدير</string>
+    <string name="flat_earth">فرضية الأرض المستوية</string>
+    <string name="camera">كاميرا</string>
+    <string name="map">خارطة</string>
+    <string name="sensors">حساسات</string>
+    <string name="log">تقرير</string>
+    <string name="rotation">زوايا الدوران</string>
+    <string name="width">عرض الصورة</string>
+    <string name="height">ارتفاع الصورة</string>
+    <string name="fov_h">حقل الرؤية الأفقي</string>
+    <string name="fov_v">حقل الرؤية الشاقولي</string>
+    <string name="target">الهدف</string>
+    <string name="target_lon">خط طول الهدف</string>
+    <string name="target_lat">خط عرض الهدف</string>
+    <string name="target_alt">ارتفاع الهدف</string>
+    <string name="target_dist">مسافة الهدف</string>
+    <string name="target_angle">زاوية الهدف</string>
+    <string name="place_name">اسم المكان</string>
+    <string name="idx">عداد</string>
+    <string name="registered_version">نسخة مسجلة</string>
+    <string name="demo_version">نسخة تجريبية</string>
+    <string name="natural">طبيعي</string>
+    <string name="left_side">الجهة اليسرى</string>
+    <string name="upside_down">مقلوب</string>
+    <string name="right_side">الجهة اليمنى</string>
+    <string name="search">بحث</string>
+    <string name="live">مباشر</string>
+    <string name="calibrate">عاير</string>
+    <string name="camera_pos_changed">تم تغيير موقع الكاميرا&#8320;</string>
+    <string name="target_pos_changed">تم تغيير موقع الهدف&#8320;</string>
+    <string name="connect">اتصال</string>
+    <string name="ip_address">IP Address</string>
+    <string name="message">الرسالة</string>
+    <string name="send">إرسال</string>
+    <string name="box">صندوق</string>
+
+    <string name="sdk_version">إصدار مكتبة د جي آي: %1$s</string>
+    <!-- Main activity UI string -->
+    <string name="connection_loose">الحالة: لا يوجد جهاز متصل</string>
+    <string name="model_not_available">إصدار الفيرموير: غير صالح</string>
+    <string name="product_information">معلومات المنتج</string>
+    <string name="sdk_registration_message">
+        فشل تسجيل المنتج. الرجاء التحقق من رقم المنتج والاتصال بشبكة الانترنت
+    </string>
+    <string name="sdk_registration_success_message">تم تسجيل المنتج بنجاح</string>
+    <string name="sdk_registration_doing_message">تسجيل المنتج، الرجاء الانتظار…</string>
+
+    <string name="activity_component_list">خدمات مستعرض الخرائط</string>
+
+    <string name="success">نجاح</string>
+
+    <!-- Component list -->
+    <string name="component_listview_component">المكونات</string>
+    <string name="component_mapviewer_camera">مستعرض الخرائط</string>
+    <string name="component_listview_camera">الكاميرا</string>
+    <string name="component_listview_gimbal">المنصة</string>
+    <string name="component_listview_flight_controller">متحكم الطيران</string>
+    <string name="component_listview_battery">البطارية</string>
+    <string name="component_listview_airlink">الوصلة الاسلكية</string>
+    <string name="component_listview_remote_controller">جهاز التحكم عن بعد</string>
+    <string name="component_listview_mobile_remote_controller">جهاز التحكم عن بعد المتنقل</string>
+    <string name="component_listview_mission_manager">متحكم المهمات</string>
+    <string name="component_listview_timeline_mission_control">متحكم المهمات الجديد</string>
+    <string name="component_listview_bluetooth">بلوتوث</string>
+
+
+    <string name="component_listview_waypoint_mission_operator">New Waypoint Mission Operator</string>
+    <string name="component_listview_keyed_interface">Keyed Interface Sample</string>
+
+    <string name="component_listview_sdk_4_1">4.1 New Interfaces</string>
+    <string name="component_listview_app_activation">تسجيل الدخول</string>
+
+    <!-- Camera list -->
+    <string name="camera_subtitle_general">General</string>
+    <string name="camera_listview_push_info">Push Info</string>
+    <string name="camera_listview_iso">Set/Get ISO</string>
+    <string name="camera_subtitle_shoot_photo">Shoot Photo</string>
+    <string name="camera_listview_shoot_single_photo">Shoot Single Photo</string>
+    <string name="camera_listview_shoot_interval_photo">Shoot Interval Photo</string>
+    <string name="camera_subtitle_record_video">Record Video</string>
+    <string name="camera_listview_record_video">Record Video</string>
+    <string name="camera_subtitle_playback">Playback</string>
+    <string name="camera_listview_playback_push_info">Playback Push Info</string>
+    <string name="camera_listview_playback_push_info_description">Playback State Information</string>
+    <string name="camera_listview_playback_command">Playback Commands</string>
+    <string name="camera_listview_playback_download">Playback Download</string>
+    <string name="camera_subtitle_media_download">Media Download</string>
+    <string name="camera_listview_download_media">Download Media</string>
+    <string name="camera_listview_media_playback">Media Playback</string>
+    <string name="moveToPosition">Skip Time</string>
+
+    <!-- Gimbal list -->
+    <string name="gimbal_subtitle_rotate_gimbal">Rotate Gimbal</string>
+    <string name="gimbal_listview_push_info">Push Info</string>
+    <string name="gimbal_listview_rotate_gimbal">Rotate With Speed</string>
+    <string name="gimbal_listview_gimbal_capability">Gimbal Capability</string>
+
+    <!-- Battery list -->
+    <string name="battery_subtitle">Battery Information</string>
+    <string name="battery_listview_push_info">Push Info</string>
+    <string name="battery_listview_set_get_discharge_day">Set/Get Discharge Day</string>
+
+    <!-- Remote controller list -->
+    <string name="remote_controller_subtitle">Remote Controller Information</string>
+    <string name="remote_controller_listview_push_info">Push Info</string>
+
+    <!-- Flight controller list -->
+    <string name="flight_controller_subtitle_general">General</string>
+    <string name="flight_controller_listview_compass_calibration">Compass Calibration</string>
+    <string name="flight_controller_listview_flight_limitation">Flight Limitation</string>
+    <string name="flight_controller_subtitle_orientation_mode">Orientation Mode</string>
+    <string name="flight_controller_listview_orientation_mode">Orientation Mode</string>
+    <string name="flight_controller_subtitle_virtual_stick">Virtual Stick</string>
+    <string name="flight_controller_listview_virtual_stick">Virtual Stick</string>
+    <string name="flight_controller_subtitle_intelligent_flight_assistant">Intelligent Flight Assistant</string>
+    <string name="flight_controller_listview_intelligent_flight_assistant">Intelligent Flight Assistant</string>
+
+    <!-- Airlink list -->
+    <string name="airlink_subtitle_wifi_airlink">WiFi Airlink</string>
+    <string name="airlink_listview_wifi_set_get_ssid">Set/Get WiFi SSID</string>
+    <string name="airlink_listview_wifi_reboot_wifi">Reboot WiFi</string>
+    <string name="airlink_subtitle_lb_airlink">Light Bridge Airlink</string>
+    <string name="airlink_listview_lb_set_get_channel">Set/Get LBAirlink Channel</string>
+
+    <!--*************** Camera string set ***************-->
+    <!-- Shoot Single Photo View -->
+    <string name="shoot_single_photo">Shoot Single Photo</string>
+    <string name="shoot_single_photo_descritpion">Shoot Single Photo</string>
+
+    <!-- Record Video View -->
+    <string name="record_video_start_record">Start Record</string>
+    <string name="record_video_stop_record">Stop Record</string>
+    <string name="record_video_initial_time">00:00:00</string>
+
+    <!-- Fetch Media View -->
+    <string name="fetch_media_view_description">Fetch Media</string>
+    <string name="fetch_media_view_fetch_thumbnail">Fetch Thumbnail</string>
+    <string name="fetch_media_view_fetch_preview">Fetch Preview</string>
+    <string name="fetch_media_view_fetch_media">FetchMedia</string>
+    <string name="not_support_mediadownload">This product does not support media download function.</string>
+    <string name="support_mediadownload">This product supports media download function.</string>
+
+    <!-- Playback Download View -->
+    <string name="playback_download_description">In this mode, you could download the media file using the playback
+        mode. The pre-condition is that camera is in the multiple edit mode.
+    </string>
+    <string name="playback_download_select_0">1st Photo</string>
+    <string name="playback_download_select_1">2nd Photo</string>
+    <string name="playback_download_download">Download</string>
+    <string name="not_support_playback">This product does not support playback function.</string>
+    <string name="support_playback">This product supports playback function.</string>
+
+    <!--*************** Gimbal string set ***************-->
+    <!-- Move Gimbal In Speed -->
+    <string name="move_gimbal_in_speed_up">Up</string>
+    <string name="move_gimbal_in_speed_stop">Stop</string>
+    <string name="move_gimbal_in_speed_down">Down</string>
+    <string name="move_gimbal_in_speed_description">This view will show how to rotate the gimbal in speed. Please set up
+        a timer for keeping sending the rotateGimbalBySpeed with specific values and send null, null, null using
+        rotateGimbalInSpeed to the aircraft.
+    </string>
+
+    <!--*************** Flight controller string set ***************-->
+    <!-- Compass Calibration View -->
+    <string name="compass_calibration_start_calibration">Start Calibration</string>
+    <string name="compass_calibration_stop_calibration">Stop Calibration</string>
+    <string name="compass_calibration_description">This view is for calibration. The calibration process includes two
+        parts: horizontal calibration and vertical calibration
+    </string>
+
+    <string name="flight_limitation_set_height_limitation">Set Height Limitation</string>
+    <string name="flight_limitation_toggle_enable_radius_limitation">Limitation ON/OFF</string>
+    <string name="flight_limitation_set_radius_limitation">Set Radius Limitation</string>
+    <string name="flight_limitation_description">The height limitation is always on, the range of the flight limitation
+        is [20, 500]. The range of the radius flight limitation is [15, 500].
+    </string>
+
+    <!-- Orientation Mode View -->
+    <string name="orientation_mode_description">Current Orientation Mode is</string>
+    <string name="orientation_mode_home_lock">Home Lock</string>
+    <string name="orientation_mode_course_lock">Course Lock</string>
+    <string name="orientation_mode_aircraft_heading">Aircraft Heading</string>
+
+    <string name="intelligent_flight_assistant_description">This view is for Intelligent Flight Assistant.</string>
+
+    <!--*************** Airlink string set ***************-->
+    <!-- Set Get LB Airlink Channel View -->
+    <string name="set_get_lb_airlink_channel_description">This view will help you understand how to setLBAirlinkChannel.
+        Before send setLBAirlinkChannel, the mode of the LB should be in Manual mode. For the auto mode, it will be more
+        efficient for the remote control to choose the best channel
+    </string>
+
+    <!-- Set Get WiFi Airlink SSID View -->
+    <string name="set_get_wifi_airlink_ssid_description">This view will help you understand how to setWiFiAirlinkSSID.
+        After setting SSID, Password and frequency, please reboot the WiFi so that it would work immediately.
+    </string>
+
+    <!-- Reboot WiFi Airlink View -->
+    <string name="reboot_wifi_airlink_description">This view will help you understand how to use the rebootWiFiAirlink.
+        After setting SSID, Password and frequency, please reboot the WiFi so that it would work immediately.
+    </string>
+    <string name="reboot_wifi_airlink_reboot_wifi">Reboot WiFi</string>
+    <string name="reboot_wifi_airlink_hint">If you reboot the WiFi, the connection between product and mobile phone
+        device might lose.
+    </string>
+
+    <!-- media playback -->
+    <string name="video_playback_state_push_info">Video playback state</string>
+    <string name="Message_Waiting">Please wait…</string>
+    <string name="sync_file_title">Sync file</string>
+    <string name="sync_success">Sync file success</string>
+    <string name="playback_disconnected">Disconnected</string>
+
+    <!-- keyed interface-->
+    <string name="component_keyed_interface">key</string>
+    <string name="battery_title">Get battery level</string>
+    <string name="battery_value">%1$s %</string>
+    <string name="camera_title">Switch Camera Mode</string>
+    <string name="camera_value">Current Mode: %1$s</string>
+    <string name="gps_title">Start Listening</string>
+    <string name="gps_value">Lat: %1$s - Long: %2$s</string>
+    <string name="exposure_title">Get Exposure Setting</string>
+    <string name="exposure_value">%1$s</string>
+    <string name="search_for_demo">Search for demo</string>
+
+    <!-- video feeder related interface-->
+    <string name="video_feeder_single_camera_product_title">*Inspire1/M100/P3/P4/Mavic… \n Only one live video is available"</string>
+    <string name="video_feeder_m600_lb2_title">*M600/LB2 products(with two cameras) \n with follow options:</string>
+    <string name="video_feeder_m210_two_camera_title">*M210 with two cameras:</string>
+    <string name="product_with_multiple_gimbals">*Product with multiple gimbals:</string>
+    <string name="video_feeder_enable_single">\tEnable EXT(Single Mode)</string>
+    <string name="video_feeder_disable_single">\tDisable EXT(Dual Mode)</string>
+    <string name="video_feeder_lb_only">LB Only</string>
+    <string name="video_feeder_ext_only">EXT Only</string>
+    <string name="video_feeder_both_lb_ext">LB+EXT</string>
+    <string name="video_feeder_hdmi_only">HDMI Only</string>
+    <string name="video_feeder_av_only">AV Only</string>
+    <string name="video_feeder_both_hdmi_av">HDMI+AV</string>
+    <string name="video_feeder_right_fpv">Right+FPV</string>
+    <string name="video_feeder_left_fpv">Left+FPV</string>
+    <string name="video_feeder_left_right">Left+Right</string>
+    <string name="component_listview_video_feeder">Video Feeder View</string>
+
+    <string-array name="iconArray">
+        <item>Aircraft</item>
+        <item>Home</item>
+        <item>Gimbal Yaw</item>
+        <item>Locked Zone</item>
+        <item>Unlocked Zone</item>
+    </string-array>
+    <string-array name="mapTypeArray">
+        <item>Standard</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+    </string-array>
+    <string-array name="lineTypeArray">
+        <item>Home Direction</item>
+        <item>Flight Path</item>
+        <item>Fly Zone Border</item>
+    </string-array>
+
+    <string name="osmbonuspack.directions.1">Continue[ on %s]</string>
+    <string name="osmbonuspack.directions.6">Turn slight right[ on %s]</string>
+    <string name="osmbonuspack.directions.7">Turn right[ on %s]</string>
+    <string name="osmbonuspack.directions.8">Turn sharp right[ on %s]</string>
+    <string name="osmbonuspack.directions.12">U-Turn[ on %s]</string>
+    <string name="osmbonuspack.directions.5">Turn sharp left[ on %s]</string>
+    <string name="osmbonuspack.directions.4">Turn left[ on %s]</string>
+    <string name="osmbonuspack.directions.3">Turn slight left[ on %s]</string>
+    <string name="osmbonuspack.directions.24">You have reached a waypoint of your trip</string>
+    <string name="osmbonuspack.directions.2">[Go on %s]</string>
+    <string name="osmbonuspack.directions.27">Enter roundabout and leave at first exit[ on %s]</string>
+    <string name="osmbonuspack.directions.28">Enter roundabout and leave at second exit[ on %s]</string>
+    <string name="osmbonuspack.directions.29">Enter roundabout and leave at third exit[ on %s]</string>
+    <string name="osmbonuspack.directions.30">Enter roundabout and leave at fourth exit[ on %s]</string>
+    <string name="osmbonuspack.directions.31">Enter roundabout and leave at fifth exit[ on %s]</string>
+    <string name="osmbonuspack.directions.32">Enter roundabout and leave at sixth exit[ on %s]</string>
+    <string name="osmbonuspack.directions.33">Enter roundabout and leave at seventh exit[ on %s]</string>
+    <string name="osmbonuspack.directions.34">Enter roundabout and leave at eighth exit[ on %s]</string>
+    <string name="osmbonuspack.directions.17">Take the ramp on the left[ on %s]</string>
+    <string name="osmbonuspack.directions.18">Take the ramp on the right[ on %s]</string>
+    <string name="osmbonuspack.directions.19">Take the ramp straight ahead[ on %s]</string>
+
+    <string name="osmbonuspack.format_distance_kilometers">%skm</string>
+    <string name="osmbonuspack.format_distance_meters">%sm</string>
+
+    <string name="osmbonuspack.format_hours">%sh</string>
+    <string name="osmbonuspack.format_minutes">%smin</string>
+    <string name="osmbonuspack.format_seconds">%ssec</string>
+
+    <!-- MapViewer-->
+    <string name="device_camera_position">موقع الكاميرا</string>
+    <string name="device_camera_angles">زوايا الكاميرا</string>
+    <string name="component_listview_mapviewer">مستعرض الخرائط</string>
+    <string name="component_listview_mapviewer_help">مساعدة</string>
+    <string name="title_main_activity">مستعرض الخرائط</string>
+    <string name="lastYaw">زاوية السمت</string>
+    <string name="lastPitch">زاوية الرفع</string>
+    <string name="look_at">انظر إلى</string>
+    <string name="target_lock">قفل الهدف</string>
+    <string name="mapviewer_help0">
+جندي المستقبل:
+جندي المستقبل هو مصطلح يُستخدم لوصف الجندي المتطور الذي يمتلك مهارات وقدرات عقلية وبدنية متقدمة تتجاوز قدرات الجنود التقليديين والذي يتم تدريبه باستخدام التكنولوجيا ويستخدم التقنيات المتقدمة في مجال القتال، يتضمن ذلك استخدام الذكاء الاصطناعي والواقع المعزز، والأسلحة الذاتية، والروبوتات، والطائرات بدون طيار. يعتبر جندي المستقبل جزءًا من تطوير القوات المسلحة والأمن الوطني لتحسين قدرة الدفاع عن البلد وتحسين الأمن والاستقرار، كما يهدف هذا المفهوم إلى خلق جيل جديد من المحاربين يتمتعون بفعالية قتالية استثنائية وقدرة على التكيف مع مختلف الظروف في ساحات المعركة المستقبلية.
+    </string>
+    <string name="mapviewer_help">
+    </string>
+    <string name="start">ابدأ</string>
+    <string name="stop">قف</string>
+    <string name="user_cancelled">إلغاء من قبل المستخدم</string>
+    <string name="component_listview_default">الواجهة الافتراضية</string>
+    <string name="favorite">مفضلة</string>
+    <string name="favorites">المفضلات</string>
+    <string name="home">نقطة البدء</string>
+    <string name="ruler">المسطرة</string>
+    <string name="p1">P1</string>
+    <string name="p2">P2</string>
+    <string name="save">حفظ</string>
+    <string name="reset">تصفير</string>
+    <string name="status">الحالة</string>
+    <string name="path">مسار</string>
+    <string name="status_no_product_connected">الحالة: لا يوجد جهاز متصل</string>
+    <string name="wsbridge_ip">عنوان شبكة الاتصال</string>
+    <string name="bluetooth">بلوتوث</string>
+    <string name="open">فتح</string>
+    <string name="GPS">GPS</string>
+    <string name="IMU">IMU</string>
+    <string name="track">تعقب ط</string>
+    <string name="update_map">تحديث الخارطة</string>
+    <string name="gimbal_reset">تصفير المنصة</string>
+    <string name="uav_angles">زوايا الطائرة</string>
+    <string name="ir">حراري</string>
+    <string name="change_home_position">محطة</string>
+    <string name="exit">خروج</string>
+    <string name="add">إضافة</string>
+    <string name="settings">إعدادات</string>
+    <string name="defaults">افتراضي</string>
+    <string name="locate">موقع الطائرة</string>
+    <string name="home_pos">موقع الإقلاع</string>
+    <string name="start_pos">البداية</string>
+    <string name="limits">القيود</string>
+    <string name="export_mission">تصدير مهمة</string>
+    <string name="load_mission">تحميل مهمة</string>
+    <string name="start_mission">ابدأ</string>
+    <string name="stop_mission">قف</string>
+    <string name="pause_mission">إيقاف مؤقت</string>
+    <string name="resume_mission">متابعة</string>
+    <string name="clean_mission">مسح</string>
+    <string name="follow">تعقب ج</string>
+    <string name="goto_pos">انتقل إلى</string>
+    <string name="item_name">اسم العنصر</string>
+    <string name="closing_activity">إغلاق البرنامج</string>
+    <string name="delete">حذف</string>
+    <string name="are_you_sure">هل تريد إغلاق البرنامج؟</string>
+    <string name="are_you_sure_delete">هل تريد بالتأكيد حذف هذا العنصر؟</string>
+    <string name="yes_message">نعم</string>
+    <string name="no_message">لا</string>
+    <string name="limits_settings">القيود</string>
+    <string name="return_to_home_altitude">ارتفاع مستوي العودة إلى نقطة الإقلاع:</string>
+    <string name="max_flight_altitude">الارتفاع الأعظمي للطيران:</string>
+    <string name="max_flight_radius">نصف القطر الأعظمي للطيران:</string>
+    <string name="connect_bluetooth">اتصال</string>
+    <string name="disconnect_bluetooth">قطع الاتصال</string>
+    <string name="devices_information_bluetooth">معلومات الأجهزة</string>
+    <string name="searchbluetooth_bluetooth">البحث عن أجهزة بلوتوث</string>
+    <string name="select_device_bluetooth">اختر الجهاز</string>
+    <string name="devices_bluetooth">الأجهزة</string>
+    <string name="mapviewer_data_paths">مسارات معطيات البرنامج</string>
+    <string name="goto_here">انتقل هنا</string>
+    <string name="look_at_here">انظر هنا</string>
+    <string name="login_account">تسجيل الدخول</string>
+    <string name="log_out">خروج</string>
+    <string name="help">مساعدة</string>
+    <string name="load_default_settings">تحميل الإعدادات الافتراضية؟</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="default_settings_loaded">تم تحميل الإعدادات الافتراضية بنجاح…</string>
+    <string name="my_account">حسابي</string>
+    <string name="transmit_local_file">transmit_local_file</string>
+    <string name="cancel_transmitting">cancel_transmitting</string>
+    <string name="stop_playing">stop_playing</string>
+    <string name="fetch_file_list">fetch_file_list</string>
+    <string name="recording_state">recording_state</string>
+    <string name="transmitting_state">transmitting_state</string>
+    <string name="speaker_state">speaker_state</string>
+    <string name="fh_get_authorization">fh_get_authorization</string>
+    <string name="fh_get_team_info">fh_get_team_info</string>
+    <string name="fh_bind_aircraft">fh_bind_aircraft</string>
+    <string name="fh_unbind_aircraft">fh_unbind_aircraft</string>
+    <string name="fh_set_upload_interval">fh_set_upload_interval</string>
+    <string name="fh_get_upload_interval">fh_get_upload_interval</string>
+    <string name="fh_start_upload_flight_data">fh_start_upload_flight_data</string>
+    <string name="fh_stop_upload_flight_data">fh_stop_upload_flight_data</string>
+    <string name="fh_get_flight_path">fh_get_flight_path</string>
+    <string name="fh_get_online_devices">fh_get_online_devices</string>
+    <string name="fh_get_real_time_data">fh_get_real_time_data</string>
+    <string name="fh_get_flight_statistics">fh_get_flight_statistics</string>
+    <string name="fh_get_stream_source">fh_get_stream_source</string>
+    <string name="fh_get_stream_destination">fh_get_stream_destination</string>
+    <string name="fh_check_live_stream_stability">fh_check_live_stream_stability</string>
+    <string name="fh_get_streaming_devices">fh_get_streaming_devices</string>
+    <string name="fh_team_id">fh_team_id</string>
+    <string name="fh_account">fh_account</string>
+    <string name="key_manager_component_spinner_title">key_manager_component_spinner_title</string>
+    <string name="key_manager_sub_component_spinner_title">key_manager_sub_component_spinner_title</string>
+    <string name="key_manager_component_index_title">key_manager_component_index_title</string>
+    <string name="key_manager_key_interface_title">key_manager_key_interface_title</string>
+    <string name="key_manager_get_value_desc">key_manager_get_value_desc</string>
+    <string name="key_manager_set_value_desc">key_manager_set_value_desc</string>
+    <string name="mode_visual">mode_visual</string>
+    <string name="mode_thermal">mode_thermal</string>
+    <string name="mode_msx">mode_msx</string>
+    <string name="mode_pip">mode_pip</string>
+    <string name="mode_msx_level">mode_msx_level</string>
+    <string name="mode_pip_position">mode_pip_position</string>
+    <string name="photo_shoot">photo_shoot</string>
+    <string name="sdcard_present">sdcard_present</string>
+    <string name="photo_count">photo_count</string>
+    <string name="start_record">start_record</string>
+    <string name="stop_record">stop_record</string>
+    <string name="enable_beacon">enable_beacon</string>
+    <string name="enable_spotlight">enable_spotlight</string>
+    <string name="play_mode_single">play_mode_single</string>
+    <string name="accessory_aggragation_state">accessory_aggragation_state</string>
+    <string name="spot_light_state">spot_light_state</string>
+    <string name="disable_spotlight">Disable Spotlight</string>
+    <string name="play_mode_repeat">Play Mode Repeat</string>
+    <string name="disable_beacon">Disable Beacon</string>
+    <string name="component_listview_accessory_aggregation">Component Listview Accessory Aggregation</string>
+    <string name="component_xt2_camera_view">Component xt2 camera view</string>
+    <string name="component_listview_flight_hub">component listview flight hub</string>
+    <string name="calibration_value">calibration_value</string>
+    <string name="storage_location_value_internal">storage_location_value_internal</string>
+    <string name="storage_location_value_sd">storage_location_value_sd</string>
+    <string name="component_listview_key_manager">component_listview_key_manager</string>
+    <string name="component_listview_sdk_4_8">component_listview_sdk_4_8</string>
+    <string name="component_listview_access_locker">component_listview_access_locker</string>
+    <string name="component_listview_audio_file_list_manager">component_listview_audio_file_list_manager</string>
+    <string name="component_listview_sdk_4_6">component_listview_sdk_4_6</string>
+    <string name="component_listview_payload">component_listview_payload</string>
+    <string name="component_listview_redirect_to_djigo">component_listview_redirect_to_djigo</string>
+    <string name="component_listview_sdk_4_5">component_listview_sdk_4_5</string>
+    <string name="component_listview_sdk_4_0">component_listview_sdk_4_0</string>
+    <string name="key_manager_listview_key_Interface">key_manager_listview_key_Interface</string>
+    <string name="connection_only_rc">connection_only_rc</string>
+    <string name="start_payload">start_payload</string>
+    <string name="start_payload_fail">start_payload_fail</string>
+    <string name="start_payload_send_data">start_payload_send_data</string>
+    <string name="component_listview_redirect_go4">component_listview_redirect_go4</string>
+    <string name="component_listview_redirect_go4_failure">component_listview_redirect_go4_failure</string>
+    <string name="component_listview_redirect_go">component_listview_redirect_go</string>
+    <string name="component_listview_redirect_go_failure">component_listview_redirect_go_failure</string>
+    <string name="storage_location_title">storage_location_title</string>
+    <string name="zoom_at_coordinates">عرض موقع</string>
+    <string name="pos">موقع…</string>
+    <string name="lon">lon</string>
+    <string name="lat">lat</string>
+    <string name="lon_dms">lon_dms</string>
+    <string name="lat_dms">lat_dms</string>
+    <string name="x_utm">X_utm</string>
+    <string name="y_utm">Y_utm</string>
+    <string name="x_stm">X_stm</string>
+    <string name="y_stm">Y_stm</string>
+    <string name="zone">Zone</string>
+    <string name="could_not_open_file">لا يمكن فتح الملف</string>
+    <string name="tools">أدوات مساعدة</string>
+
+
+
+
+    <string name="select_all">Select All</string>
+    <string name="select_none">Select None</string>
+    <string name="run">Run</string>
+    <string name="txt_video_feed_selection">Change Video Source: </string>
+    <string name="txt_video_dynamic_size">Test FPV widget view in different size: </string>
+    <string name="set_auto_video_feed">Auto</string>
+    <string name="set_primary_video_feed">Primary</string>
+    <string name="set_secondary_video_feed">Secondary</string>
+    <string name="set_fpv_size">Resize</string>
+    <string name="provider_google_maps">Google Maps</string>
+    <string name="provider_here_maps">Here Maps</string>
+    <string name="provider_amaps">AMaps</string>
+    <string name="home_direction">Home Direction</string>
+    <string name="auto_frame">Auto Frame</string>
+    <string name="unlock_flyzones">Unlock Fly Zones</string>
+    <string name="show_flight_path">Show Flight Path</string>
+    <string name="show_home_point">Show Home Point</string>
+    <string name="show_gimbal_yaw">Show Gimbal Yaw</string>
+    <string name="clear_flight_path">Clear Flight Path</string>
+    <string name="replace_icon">Replace Icon</string>
+    <string name="fly_zone">Fly Zone</string>
+    <string name="fly_zone_legend">Fly Zone Legend</string>
+    <string name="dji_account_indicator">DJI Account Login Indicator</string>
+    <string name="new_color">New Color</string>
+    <string name="sync">Sync</string>
+    <string name="camera_name_primary">Primary Camera Name</string>
+    <string name="camera_name_secondary">Secondary Camera Name</string>
+    <string name="camera_side_primary">Primary Camera Side</string>
+    <string name="camera_side_secondary">Secondary Camera Side</string>
+    <string name="focus_point">Focus Point</string>
+    <string name="metering_point">Metering Point</string>
+    <string name="gimbal_control">Gimbal Control</string>
+    <string name="display_grid">Display Grid</string>
+    <string name="txt_grid_overlay_selection">Change Grid Overlay Type: </string>
+    <string name="grid_type_none">None</string>
+    <string name="grid_type_parallel">Parallel</string>
+    <string name="grid_type_parallel_diagonal">Parallel with Diagonals</string>
+    <string name="default_ui_widgets">الواجهة الافتراضية</string>
+    <string name="customized_ui_widgets">الواجهة المعدلة</string>
+    <string name="map_widget">واجهة الخارطة</string>
+    <string name="simulate">محاكاة</string>
+    <string name="refresh">تحديث</string>
+    <string name="title">العنوان</string>
+    <string name="start_mapviewer">افتح مستعرض الخرائط</string>
+    <string name="file_path">مسار الملف</string>
+    <string name="content">المحتويات</string>
+    <string name="gimb_yaw">زاوية سمت المنصة</string>
+    <string name="gimb_pitch">زاوية رفع المنصة</string>
+    <string name="gimb_roll">زاوية دوران المنصة</string>
+    <string name="show_device_camera">كاميرا الجوال</string>
+    <string name="uav">الطائرة</string>
+    <string name="gimbal">المنصة</string>
+    <string name="metal_detection">كشف المعادن</string>
+    <string name="metal_power">قوة الإشارة</string>
+    <string name="vibration_threshold">عتبة الرجاج</string>
+    <string name="custom_alt">ارتفاع خاص</string>
+    <string name="multiview">متعدد المشاهد</string>
+    <string name="mission">مهمة</string>
+    <string name="target_azimuth">سمت الهدف بالميليم</string>
+    <string name="distance">مسافة الهدف</string>
+    <string name="bearing">اتجاه الهدف</string>
+    <string name="enter">إدخال</string>
+    <string name="drone_controller">تصوير جوي</string>
+    <string name="gps_navigation">ملاحة</string>
+    <string name="chart">مسار</string>
+    <string name="fire">إطلاق</string>
+    <string name="dead_reckoning_navigation">ملاحة</string>
+    <string name="about">حول</string>
+    <string name="activate_sdk">تفعيل المكتبة</string>
+    <string name="panorama">بانوراما</string>
+    <string name="info">معلومات</string>
+    <string name="stitch_path">خطة تصوير</string>
+    <string name="follow_path">تتبع مسار</string>
+    <string name="messenger">مراسلات</string>
+    <string name="listen">إصغاء</string>
+    <string name="disconnect">فصل</string>
+    <string name="are_you_sure_stop">هل تريد بالتأكيد أيقاف هذه العملية؟</string>
+    <string name="stop_operation">أيقاف العملية</string>
+    <string name="update">تحديث</string>
+    <string name="debug">كشف الأخطاء</string>
+    <string name="audio_autoplay">تشغيل تلقائي للصوت</string>
+    <string name="received_location_as_gps">استقبال الموقع كمستقبل GPS</string>
+    <string name="load">تحميل</string>
+    <string name="delete_message">حذف رسالة</string>
+    <string name="are_you_sure_delete_message">هل تريد بالتأكيد حذف هذه الرسالة؟</string>
+    <string name="this_range_only">فلتر</string>
+    <string name="more">المزيد…</string>
+    <string name="snapshot">ارسال لقطة</string>
+    <string name="utm_grid">شبكة UTM</string>
+    <string name="comment">التعليق</string>
+    <string name="details">الوصف</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="latlon_grid">شبكة LL</string>
+    <string name="broadcast">بث حي</string>
+    <string name="interval">المجال الزمني</string>
+    <string name="connect_timeout">زمن الاتصال</string>
+    <string name="show_log">عرض التقرير</string>
+    <string name="delete_log">حذف التقرير</string>
+    <string name="encode">تشفير</string>
+    <string name="scale">التصغير</string>
+    <string name="weapon_type">نوع السلاح</string>
+    <string name="members">الطاقم</string>
+    <string name="ip">عنوان</string>
+    <string name="port">منفذ</string>
+    <string name="add_member">إضافة عنصر</string>
+    <string name="firepower">القوة النارية</string>
+    <string name="counting">تفقد</string>
+    <string name="absence">غياب</string>
+    <string name="add_firepower">إضافة قوة نارية</string>
+    <string name="soldiers">الجنود</string>
+    <string name="add_soldier">إضافة جندي</string>
+    <string name="firepowers">القوى النارية</string>
+    <string name="absences">الغياب</string>
+    <string name="total_count">العدد الكلي</string>
+    <string name="officers_count">عدد الضباط</string>
+    <string name="sub_officers_count">عدد صف الضباط</string>
+    <string name="singles_count">عدد الافراد</string>
+    <string name="appendices_count">عدد الملحقين</string>
+    <string name="attendances">الحضور</string>
+    <string name="vacation">إجازة</string>
+    <string name="hospital">مشفى</string>
+    <string name="recovery">نقاهة</string>
+    <string name="leaving">مغادرة</string>
+    <string name="prison">سجن</string>
+    <string name="unjustified_absence">غياب غير مبرر</string>
+    <string name="total_absence">مجموع الغياب</string>
+    <string name="under_gun">تحت السلاح</string>
+    <string name="type">النوع</string>
+    <string name="general">عامة</string>
+    <string name="special">خاصة</string>
+    <string name="weapon">سلاح</string>
+    <string name="screen_shot">لقطة شاشة</string>
+    <string name="send_log">ارسال التقرير</string>
+    <string name="information">معلومات</string>
+    <string name="enable_data_sim">Enable Data SIM</string>
+    <string name="gps_settings">إعدادات الـGPS</string>
+    <string name="show">عرض</string>
+    <string name="auto">آلي</string>
+    <string name="grayscale">رمادي</string>
+    <string name="finish">انهاء</string>
+    <string name="receive">استقبال</string>
+    <string name="line_color">لون الخط</string>
+    <string name="line_width">عرض الخط</string>
+    <string name="line_alpha">شفافية الخط</string>
+    <string name="fill_color">لون التعبئة</string>
+    <string name="fill_alpha">شفافية التعبئة</string>
+    <string name="send_all">إرسال الكل</string>
+    <string name="icon_color">لون الأيقونة</string>
+    <string name="icon_alpha">شفافية الأيقونة</string>
+    <string name="icon_scale">حجم الأيقونة</string>
+    <string name="icon_heading">زاوية الأيقونة</string>
+    <string name="satellites">الاقمار</string>
+    <string name="edit">تحرير</string>
+    <string name="mode">نمط</string>
+    <string name="are_you_sure_add">هل تريد بالتأكيد إضافة هذه النقطة؟</string>
+    <string name="drag">سحب</string>
+    <string name="add_delete">إضافة/حذف</string>
+    <string name="are_you_sure_delete_point">هل تريد بالتأكيد حذف هذه النقطة؟</string>
+    <string name="auto_rotate">دوران تلقائي</string>
+    <string name="y_sk42">Y_sk42</string>
+    <string name="x_sk42">X_sk42</string>
+    <string name="lat_sk42">lat_sk42</string>
+    <string name="lon_sk42">lon_sk42</string>
+    <string name="convert">تحويل</string>
+    <string name="heading">سمت</string>
+    <string name="meters">متر</string>
+    <string name="gps_coordinates">إظهار إحداثيات الجهاز</string>
+    <string name="egm96">الارتفاعات عن سطح البحر</string>
+    <string name="add_start">إضافة البداية</string>
+    <string name="add_end">إضافة النهاية</string>
+    <string name="fake_gps">موقع وهمي</string>
+    <string name="kalman">كالمن</string>
+    <string name="text_size">حجم النص</string>
+    <string name="coordinates">الاحداثيات</string>
+    <string name="icons_scale">تكبير الايقونات</string>
+    <string name="development">تطوير</string>
+    <string name="target_radius">نصف قطر الهدف</string>
+    <string name="marks">نقاط</string>
+    <string name="polylines">مسارات</string>
+    <string name="polygons">مضلعات</string>
+    <string name="pick_a_color">اختر اللون</string>
+    <string name="next_point">النقطة التالية</string>
+    <string name="mission_finished">انتهت المهمة</string>
+    <string name="mission_canceled">ألغيت المهمة</string>
+    <string name="track_name">اسم المسار</string>
+    <string name="track_added_to_favorites">تم إضافة المسار للمفضلات…</string>
+    <string name="add_polygon">إضافة مضلع</string>
+    <string name="polygon_added_to_favorites">تم إضافة المضلع للمفضلات…</string>
+    <string name="add_placemark">إضافة نقطة</string>
+    <string name="clustering">إختزال</string>
+    <string name="path_added_to_favorites">تم إضافة المسار للمفضلات…</string>
+    <string name="add_path">إضافة مسار</string>
+    <string name="arrow">&#160;&#160;&#160;>&#160;&#160;&#160;&#160;</string>
+    <string name="emulator">محاكاة</string>
+    <string name="maps_path">مسار الخرائط</string>
+    <string name="project_on_map">إسقاط على الخريطة</string>
+    <string name="image_alpha">شفافية الصورة</string>
+    <string name="auto_localize">موقع الهدف آلي</string>
+    <string name="element_exists">العنصر موجود!</string>
+    <string name="are_you_sure_you_want_to_add_this_element">هل تريد بالتأكيد إضافة هذا العنصر؟</string>
+    <string name="extra_points">نقاط كثيرة</string>
+    <string name="are_you_sure_you_want_to_edit_this_path">هل تريد بالتأكيد تحرير هذا المسار؟</string>
+    <string name="points">نقطة</string>
+    <string name="path_simplification">تنعيم المسار</string>
+    <string name="toggle_path_direction">عكس اتجاه المسار</string>
+    <string name="are_you_sure_you_want_to_track_this_path">هل تريد بالتأكيد ملاحقة هذا المسار؟</string>
+    <string name="auto_select">اختيار آلي</string>
+    <string name="auto_start_service">إقلاع آلي للخدمة</string>
+    <string name="you_have_a_mapviewer_call_from_ip">لديك اتصال ماب فيور من العنوان: </string>
+    <string name="how_are_you">كيف حالك؟</string>
+    <string name="secret_number">الرقم السري</string>
+    <string name="screenshot">لقطة شاشة</string>
+    <string name="camera_fov">زاوية الكاميرا</string>
+    <string name="icon">الايقونة</string>
+    <string name="change">تعديل</string>
+    <string name="broadcast_map">بث الخريطة</string>
+    <string name="password">كلمة المرور</string>
+    <string name="incorrect_password">كلمة المرور غير صحيحة</string>
+    <string name="encryption_key">مفتاح التشفير</string>
+
+</resources>

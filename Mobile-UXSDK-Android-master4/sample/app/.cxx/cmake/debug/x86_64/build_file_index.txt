@@ -1,0 +1,1 @@
+D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master\sample\app\src\main\cpp\CMakeLists.txt

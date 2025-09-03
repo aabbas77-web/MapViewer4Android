@@ -1,0 +1,7 @@
+Executable : D:\Android\SDK\PlatformSDKs\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master4\sample\app\.cxx\Debug\6cs5m4p6\arm64-v8a
+native-lib
+jvmArgs : 
+

@@ -1,0 +1,1 @@
+dir /b /a-d *.cpp > list.txt

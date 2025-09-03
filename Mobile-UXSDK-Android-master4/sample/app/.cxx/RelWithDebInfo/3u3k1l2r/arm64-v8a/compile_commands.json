@@ -1,0 +1,253 @@
+[
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\native-lib.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\LatLong-UTMconversion.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\LatLong-UTMconversion.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\LatLong-UTMconversion.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\GeoLocationLib.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\GeoLocationLib.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\GeoLocationLib.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\mission.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\mission.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\mission.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\iniFile.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\iniFile.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\iniFile.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\Protection.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\Protection.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\Protection.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_lib.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_lib.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_lib.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_server.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_server.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_server.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_client.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_client.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_client.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_io_handler.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_io_handler.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\tcp_io_handler.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\hosien.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\hosien.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\hosien.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\hasan.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\hasan.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\hasan.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\adam.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\adam.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\adam.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Activity.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Activity.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Activity.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Clock.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Clock.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Clock.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\ClockImpl.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ClockImpl.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ClockImpl.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Err.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Err.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Err.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\FileInputStream.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\FileInputStream.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\FileInputStream.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Lock.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Lock.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Lock.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\MemoryInputStream.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\MemoryInputStream.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\MemoryInputStream.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Mutex.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Mutex.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Mutex.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\MutexImpl.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\MutexImpl.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\MutexImpl.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\NativeActivity.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\NativeActivity.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\NativeActivity.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\ResourceStream.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ResourceStream.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ResourceStream.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Sleep.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Sleep.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Sleep.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\SleepImpl.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\SleepImpl.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\SleepImpl.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\String.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\String.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\String.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Thread.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Thread.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Thread.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\ThreadImpl.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ThreadImpl.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ThreadImpl.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\ThreadLocal.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ThreadLocal.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ThreadLocal.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\ThreadLocalImpl.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ThreadLocalImpl.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\ThreadLocalImpl.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\System\\Time.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Time.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\System\\Time.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\Ftp.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Ftp.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Ftp.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\Http.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Http.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Http.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\IpAddress.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\IpAddress.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\IpAddress.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\Packet.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Packet.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Packet.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\Socket.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Socket.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\Socket.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\SocketImpl.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\SocketImpl.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\SocketImpl.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\SocketSelector.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\SocketSelector.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\SocketSelector.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\TcpListener.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\TcpListener.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\TcpListener.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\TcpSocket.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\TcpSocket.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\TcpSocket.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/3u3k1l2r/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -ID:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/SFML  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O2 -g -DNDEBUG -fPIC   -o CMakeFiles\\native-lib.dir\\SFML\\Network\\UdpSocket.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\UdpSocket.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master4\\sample\\app\\src\\main\\cpp\\SFML\\Network\\UdpSocket.cpp"
+}
+]

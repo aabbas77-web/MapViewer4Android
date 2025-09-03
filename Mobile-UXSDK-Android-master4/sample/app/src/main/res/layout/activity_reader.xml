@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mapviewer.ReaderActivity">
+
+    <Button
+        android:id="@+id/b_start_mapviewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_mapviewer" />
+
+    <TextView
+        android:id="@+id/tv_uri_path"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/blue_dark"
+        android:focusableInTouchMode="true"
+        android:text="@string/file_path"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/white"
+        android:hint="@string/file_path" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_uri_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:focusableInTouchMode="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:hint="@string/content" />
+
+    </ScrollView>
+
+</LinearLayout>

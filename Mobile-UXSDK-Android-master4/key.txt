@@ -1,0 +1,15 @@
+App Information
+SDK Type
+Mobile SDK
+APP Name
+Oghab MapViewer
+Software Platform
+Android
+Bundle Identifier
+com.oghab.mapviewer
+App Key
+1c4631de25e514f82b21e038
+Category
+Agricultural applications
+Description
+Oghab MapViewer

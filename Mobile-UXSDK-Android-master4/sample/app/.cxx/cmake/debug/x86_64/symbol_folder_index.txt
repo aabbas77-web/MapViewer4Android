@@ -1,0 +1,1 @@
+D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master\sample\app\build\intermediates\cmake\debug\obj\x86_64

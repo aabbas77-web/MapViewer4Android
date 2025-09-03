@@ -1,0 +1,54 @@
+package com.oghab.mapviewer.osmdroid;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Rect;
+
+import org.osmdroid.views.MapView;
+import org.osmdroid.views.Projection;
+import org.osmdroid.views.overlay.Overlay;
+
+public class MapCompassOverlay extends Overlay {
+    private float mCenterX = 35.0f;
+    private float mCenterY = 35.0f;
+    private final float mScale;
+
+    public MapCompassOverlay(Context context, MapView mapView) {
+        super();
+        mScale = context.getResources().getDisplayMetrics().density;
+    }
+
+    public void setCompassCenter(final float x, final float y) {
+        mCenterX = x;
+        mCenterY = y;
+        setCompassInCenter(false);
+    }
+
+    public void setCompassInCenter(boolean b) {
+        mInCenter = b;
+    }
+
+    protected void drawCompass(final Canvas canvas, final float centerX, final float centerY) {
+      // TODO
+    }
+
+    @Override
+    public void draw(Canvas c, Projection pProjection) {
+        if (!isEnabled())   return;
+      final float centerX;
+      final float centerY;
+      if (mInCenter) {
+            final Rect screenRect = proj.getScreenRect();
+            centerX = screenRect.exactCenterX();
+            centerY = screenRect.exactCenterY();
+        } else {
+            centerX = mCenterX * mScale;
+            centerY = mCenterY * mScale;
+        }
+
+        c.save();
+        c.rotate(-pProjection.getOrientation(), centerX, centerY);
+        drawCompass(c, centerX, centerY);
+        c.restore();
+    }
+}

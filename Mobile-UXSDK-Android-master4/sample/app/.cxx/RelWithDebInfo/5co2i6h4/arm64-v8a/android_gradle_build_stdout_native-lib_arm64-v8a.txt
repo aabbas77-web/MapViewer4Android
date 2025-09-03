@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master 2022.02.06\Mobile-UXSDK-Android-master\sample\app\.cxx\RelWithDebInfo\5co2i6h4\arm64-v8a'
+ninja: no work to do.

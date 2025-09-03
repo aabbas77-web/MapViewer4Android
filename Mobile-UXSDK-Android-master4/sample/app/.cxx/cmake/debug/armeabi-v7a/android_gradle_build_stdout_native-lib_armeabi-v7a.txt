@@ -1,0 +1,57 @@
+ninja: Entering directory `D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master\sample\app\.cxx\cmake\debug\armeabi-v7a'
+[1/14] Building CXX object CMakeFiles/native-lib.dir/tcp_client.cpp.o
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_client.cpp:53:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        message = "GET / HTTP/1.1\r\n\r\n";
+                  ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_client.cpp:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+[2/14] Building CXX object CMakeFiles/native-lib.dir/LatLong-UTMconversion.cpp.o
+[3/14] Building CXX object CMakeFiles/native-lib.dir/tcp_lib.cpp.o
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_lib.cpp:85:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_lib.cpp:97:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_lib.cpp:117:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_lib.cpp:129:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+4 warnings generated.
+[4/14] Building CXX object CMakeFiles/native-lib.dir/GeoLocationLib.cpp.o
+[5/14] Building CXX object CMakeFiles/native-lib.dir/Protection.cpp.o
+[6/14] Building CXX object CMakeFiles/native-lib.dir/hasan.cpp.o
+[7/14] Building CXX object CMakeFiles/native-lib.dir/hosien.cpp.o
+[8/14] Building CXX object CMakeFiles/native-lib.dir/tcp_io_handler.cpp.o
+[9/14] Building CXX object CMakeFiles/native-lib.dir/tcp_server.cpp.o
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_server.cpp:20:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE     /* To get defns of NI_MAXSERV and NI_MAXHOST */
+        ^
+<built-in>:405:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_server.cpp:64:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_server.cpp:148:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_server.cpp:200:23: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            message = "Hello Client , I have received your connection. And now I will assign a handler for you\n";
+                      ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_server.cpp:243:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        message = "Greetings! I am your connection handler\n";
+                  ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/src/main/cpp/tcp_server.cpp:246:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        message = "Now type something and i shall repeat what you type \n";
+                  ^
+6 warnings generated.
+[10/14] Building CXX object CMakeFiles/native-lib.dir/adam.cpp.o
+[11/14] Building CXX object CMakeFiles/native-lib.dir/iniFile.cpp.o
+[12/14] Building CXX object CMakeFiles/native-lib.dir/mission.cpp.o
+[13/14] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[14/14] Linking CXX shared library D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master\sample\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libnative-lib.so

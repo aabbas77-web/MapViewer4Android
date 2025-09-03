@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_placemark_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="@string/name"
+        android:inputType="text" />
+
+    <TextView
+        android:text="@string/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_general"
+            android:text="@string/general"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rb_special"
+            android:text="@string/special"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/rb_weapon"
+            android:text="@string/weapon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RadioGroup>
+
+</LinearLayout>

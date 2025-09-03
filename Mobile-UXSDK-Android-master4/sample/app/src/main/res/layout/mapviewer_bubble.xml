@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="@drawable/bonuspack_bubble">
+
+	<LinearLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingStart="5dp"
+		android:paddingEnd="5dp"
+		android:orientation="vertical" >
+
+        <TextView android:id="@+id/bubble_title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textColor="#000000"
+            android:maxEms="17"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/title" />
+
+		<TextView
+			android:id="@+id/bubble_dec_geo_coord"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxEms="17"
+			android:text="Geographic: 0.000000,0.000000,0.0"
+			android:textColor="#000000"
+			android:textSize="12sp"
+			android:visibility="visible"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			android:id="@+id/bubble_geo_coord"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxEms="17"
+			android:text=""
+			android:textColor="#000000"
+			android:textSize="12sp"
+			android:visibility="visible"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			android:id="@+id/bubble_utm_coord"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxEms="17"
+			android:text="UTM: 0.000000,0.000000,0.0"
+			android:textColor="#000000"
+			android:textSize="12sp"
+			android:visibility="gone"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			android:id="@+id/bubble_stm_coord"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxEms="17"
+			android:text="STM: 0.000000,0.000000,0.0"
+			android:textColor="#000000"
+			android:textSize="12sp"
+			android:visibility="gone"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			android:id="@+id/bubble_sk42_coord"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxEms="17"
+			android:text="SK42: 0.000000,0.000000,0.0"
+			android:textColor="#000000"
+			android:textSize="12sp"
+			android:visibility="gone"
+			tools:ignore="HardcodedText" />
+
+		<TextView
+			android:id="@+id/bubble_sk42_gk_coord"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxEms="17"
+			android:text="SK42-GK: 0.000000,0.000000,0.0"
+			android:textColor="#000000"
+			android:textSize="12sp"
+			android:visibility="gone"
+			tools:ignore="HardcodedText" />
+
+		<LinearLayout
+			android:id="@+id/ll_drone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="visible"
+			android:layout_gravity="bottom"
+			android:orientation="horizontal" >
+
+			<Button
+				android:id="@+id/bubble_goto"
+				style="@style/MapViewerButtonColored"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="end"
+				android:text="@string/goto_here"
+				android:textSize="12sp"
+				android:visibility="visible" />
+
+			<Button
+				android:id="@+id/bubble_lookat"
+				style="@style/MapViewerButtonColored"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="end"
+				android:text="@string/look_at_here"
+				android:textSize="12sp"
+				android:visibility="visible" />
+
+			<Button
+				android:id="@+id/bubble_panorama"
+				style="@style/MapViewerButtonColored"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="end"
+				android:text="@string/panorama"
+				android:textSize="12sp"
+				android:visibility="visible" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/ll_edit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom"
+			android:orientation="horizontal" >
+
+			<Button
+				android:id="@+id/b_more"
+				style="@style/MapViewerButtonColored"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="end"
+				android:text="@string/more"
+				android:textSize="12sp"
+				android:visibility="visible" />
+
+			<Button
+				android:id="@+id/b_target"
+				style="@style/MapViewerButtonColored"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="end"
+				android:text="@string/target"
+				android:textSize="12sp"
+				android:visibility="visible" />
+
+			<CheckBox
+				android:id="@+id/cb_edit"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/customborder"
+				android:layout_gravity="center_vertical"
+				android:text="@string/edit" />
+
+			<ImageView
+				android:id="@+id/b_mark_delete"
+				style="@style/MapViewerButtonColored"
+				android:background="@drawable/close_app_icon"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:padding="3dp"
+				android:text=""
+				android:visibility="visible"
+				tools:ignore="ContentDescription" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="end"
+		android:orientation="vertical" >
+
+		<ImageView
+			android:id="@+id/iv_send"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:padding="3dp"
+			android:visibility="visible"
+			android:src="@drawable/telegram_icon"
+			tools:ignore="ContentDescription" />
+
+		<ImageView
+			android:id="@+id/iv_mark_settings"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:padding="3dp"
+			android:src="@drawable/ylw_pushpin"
+			tools:ignore="ContentDescription" />
+
+	</LinearLayout>
+
+</LinearLayout>

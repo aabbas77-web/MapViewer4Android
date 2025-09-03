@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_icons_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_icon_preview"
+            android:background="@drawable/customborder_gray"
+            android:src="@drawable/ylw_pushpin"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_icon_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="ylw_pushpin.png"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlCompat" />
+    </LinearLayout>
+
+    <ScrollView
+        android:background="@drawable/customborder"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/icon_color" />
+
+                <EditText
+                    android:id="@+id/et_icon_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="#00FF00"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+                <ImageView
+                    android:id="@+id/b_icon_color"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/colors_icon48"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:contentDescription="@string/icon_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/icon_alpha" />
+
+                <EditText
+                    android:id="@+id/et_icon_alpha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="64"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/icon_scale" />
+
+                <EditText
+                    android:id="@+id/et_icon_scale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="1.0"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/icon_heading" />
+
+                <EditText
+                    android:id="@+id/et_icon_heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="0.0"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <GridView
+        android:id="@+id/simpleGridView"
+        android:background="@drawable/customborder_gray"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:footerDividersEnabled="true"
+        android:layout_margin="0dp"
+        android:padding="3dp"
+        android:columnWidth="75dp"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp"
+        android:listSelector="#0f0"
+        android:numColumns="auto_fit"/>
+
+</LinearLayout>

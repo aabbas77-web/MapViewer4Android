@@ -1,0 +1,15 @@
+# ninja log v5
+10	471	618675381	CMakeFiles/native-lib.dir/LatLong-UTMconversion.cpp.o	c343744b36e6fa63
+6	563	618675382	CMakeFiles/native-lib.dir/GeoLocationLib.cpp.o	12bd367e4f2ba330
+18	1206	618675382	CMakeFiles/native-lib.dir/Protection.cpp.o	6a17cc061041ce66
+14	1922	618675383	CMakeFiles/native-lib.dir/mission.cpp.o	f21b906da5655c41
+22	1982	618675383	CMakeFiles/native-lib.dir/iniFile.cpp.o	38452110e5c2aee2
+1	2068	618675383	CMakeFiles/native-lib.dir/native-lib.cpp.o	25daee0f11ebf802
+2068	2493	618675384	D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	848720d5e5728077
+13	260	618751727	CMakeFiles/native-lib.dir/LatLong-UTMconversion.cpp.o	c343744b36e6fa63
+5	358	618751727	CMakeFiles/native-lib.dir/GeoLocationLib.cpp.o	12bd367e4f2ba330
+17	857	618751727	CMakeFiles/native-lib.dir/Protection.cpp.o	6a17cc061041ce66
+24	1357	618751728	CMakeFiles/native-lib.dir/mission.cpp.o	f21b906da5655c41
+21	1458	618751728	CMakeFiles/native-lib.dir/iniFile.cpp.o	38452110e5c2aee2
+10	1504	618751728	CMakeFiles/native-lib.dir/native-lib.cpp.o	25daee0f11ebf802
+1504	1897	618751728	D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	848720d5e5728077

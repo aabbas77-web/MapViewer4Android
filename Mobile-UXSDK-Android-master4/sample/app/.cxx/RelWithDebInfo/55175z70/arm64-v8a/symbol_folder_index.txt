@@ -1,0 +1,1 @@
+D:\Ali\Geoscan\SDK\Mobile-UXSDK-Android-master4\sample\app\build\intermediates\cxx\RelWithDebInfo\55175z70\obj\arm64-v8a

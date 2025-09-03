@@ -1,0 +1,31 @@
+# ninja log v5
+33	303	676291306	CMakeFiles/native-lib.dir/hasan.cpp.o	523e62d41429d4b3
+0	343	676291306	CMakeFiles/native-lib.dir/LatLong-UTMconversion.cpp.o	e4ce8ef76d1009ce
+344	662	676291306	CMakeFiles/native-lib.dir/hosien.cpp.o	4b8111b86584cded
+4	859	676291307	CMakeFiles/native-lib.dir/GeoLocationLib.cpp.o	357d5dbca11d5024
+303	876	676291307	CMakeFiles/native-lib.dir/adam.cpp.o	bc54ccf1b960bdb3
+37	928	676291307	CMakeFiles/native-lib.dir/tcp_client.cpp.o	feb139f8e0af96a3
+25	936	676291307	CMakeFiles/native-lib.dir/tcp_server.cpp.o	b0e6c2127fcb1abe
+16	1592	676291307	CMakeFiles/native-lib.dir/Protection.cpp.o	21536046892739bd
+11	1596	676291307	CMakeFiles/native-lib.dir/tcp_lib.cpp.o	409566f56f9387a9
+662	2462	676291308	CMakeFiles/native-lib.dir/tcp_io_handler.cpp.o	71ddc4adbea98b17
+20	2595	676291308	CMakeFiles/native-lib.dir/iniFile.cpp.o	5827bec9e4dcbc03
+7	2595	676291308	CMakeFiles/native-lib.dir/mission.cpp.o	596f6b69fa752357
+29	3424	676291309	CMakeFiles/native-lib.dir/native-lib.cpp.o	6362794acc8ced40
+3424	4080	676291310	D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master 2022.02.06/Mobile-UXSDK-Android-master/sample/app/build/intermediates/cxx/RelWithDebInfo/5co2i6h4/obj/x86/libnative-lib.so	51c2daa64af2661c
+0	10	0	clean	e62fcc9e744585a5
+0	9	0	clean	e62fcc9e744585a5
+39	317	676298824	CMakeFiles/native-lib.dir/hosien.cpp.o	4b8111b86584cded
+9	388	676298824	CMakeFiles/native-lib.dir/LatLong-UTMconversion.cpp.o	e4ce8ef76d1009ce
+318	651	676298824	CMakeFiles/native-lib.dir/hasan.cpp.o	523e62d41429d4b3
+6	871	676298825	CMakeFiles/native-lib.dir/GeoLocationLib.cpp.o	357d5dbca11d5024
+34	928	676298825	CMakeFiles/native-lib.dir/tcp_client.cpp.o	feb139f8e0af96a3
+30	949	676298825	CMakeFiles/native-lib.dir/tcp_server.cpp.o	b0e6c2127fcb1abe
+388	1043	676298825	CMakeFiles/native-lib.dir/adam.cpp.o	bc54ccf1b960bdb3
+12	1320	676298825	CMakeFiles/native-lib.dir/Protection.cpp.o	21536046892739bd
+16	1398	676298825	CMakeFiles/native-lib.dir/tcp_lib.cpp.o	409566f56f9387a9
+652	2573	676298826	CMakeFiles/native-lib.dir/tcp_io_handler.cpp.o	71ddc4adbea98b17
+20	2606	676298826	CMakeFiles/native-lib.dir/mission.cpp.o	596f6b69fa752357
+24	2720	676298827	CMakeFiles/native-lib.dir/iniFile.cpp.o	5827bec9e4dcbc03
+2	3598	676298827	CMakeFiles/native-lib.dir/native-lib.cpp.o	6362794acc8ced40
+3598	3909	676298828	D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master 2022.02.06/Mobile-UXSDK-Android-master/sample/app/build/intermediates/cxx/RelWithDebInfo/5co2i6h4/obj/x86/libnative-lib.so	51c2daa64af2661c

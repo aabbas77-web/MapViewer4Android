@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\Android\\SDK\\PlatformSDKs\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\.cxx\\cmake\\release\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\Android\\SDK\\PlatformSDKs\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\.cxx\\cmake\\release\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommandComponents": [
+        "D:\\Android\\SDK\\PlatformSDKs\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\.cxx\\cmake\\release\\arm64-v8a",
+        "native-lib"
+      ],
+      "abi": "arm64-v8a",
+      "output": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

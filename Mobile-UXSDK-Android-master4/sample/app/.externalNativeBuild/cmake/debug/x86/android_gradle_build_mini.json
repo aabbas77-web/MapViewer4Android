@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\SDK\\PlatformSDKs\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target native-lib",
+      "abi": "x86",
+      "output": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

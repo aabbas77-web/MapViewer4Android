@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:background="@drawable/syriaflag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/mapviewer"
+        android:visibility="visible"
+        android:src="@drawable/oghab_mapviewer" />
+
+    <Button
+        android:id="@+id/mapviewer_drone_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/gray_transparent"
+        android:padding="5dp"
+        android:text="@string/drone_controller"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/mapviewer_gps_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/gray_transparent"
+        android:padding="5dp"
+        android:text="@string/gps_navigation"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/b_exit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/close_app_icon"
+            android:contentDescription="@string/exit" />
+
+        <ImageView
+            android:id="@+id/b_dark_mode"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/dark_mode"
+            android:visibility="gone"
+            android:text="" />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/simple_ip_row_background_selector"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/ll_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/avatar"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="1dp"
+                android:padding="1dp"
+                android:src="@drawable/avatar48"
+                app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                app:strokeColor="#ff0000"
+                app:strokeWidth="1dp" />
+
+            <ImageView
+                android:id="@+id/tv_user_connected"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="end|bottom"
+                android:background="@drawable/circle_green"
+                tools:ignore="ContentDescription,HardcodedText"
+                android:contentDescription="TODO" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="192.168.1.5"
+            android:textSize="11sp"
+            android:textColor="#689F38"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="MapViewer"
+            android:textSize="11sp"
+            android:textColor="@color/blue"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_messages_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/customborder"
+            android:text="0"
+            android:textSize="11sp"
+            android:textColor="@color/blue"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

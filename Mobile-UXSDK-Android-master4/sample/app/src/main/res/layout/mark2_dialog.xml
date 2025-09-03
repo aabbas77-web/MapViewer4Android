@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_mark2_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="@string/name"
+        android:inputType="text" />
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firepowers"
+            android:id="@+id/rb_firepower"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soldiers"
+            android:id="@+id/rb_soldiers"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/counting"
+            android:id="@+id/rb_counting"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/absences"
+            android:id="@+id/rb_absences"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:id="@+id/rb_details"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"/>
+    </RadioGroup>
+
+<!--    firepowers-->
+    <LinearLayout
+        android:id="@+id/ll_firepowers"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b_add_firepower"
+                android:text="@string/add_firepower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/et_firepower_name"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layoutDirection="ltr"
+                android:autofillHints="@string/firepower"
+                android:hint="@string/firepower"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_firepowers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!--    soldiers-->
+    <LinearLayout
+        android:id="@+id/ll_soldiers"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b_add_soldier"
+                android:text="@string/add_soldier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/et_soldier_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="ltr"
+                tools:ignore="Autofill,LabelFor,TextFields" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_soldiers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <!--    counting-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_counting"
+            android:background="@drawable/customborder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:background="@drawable/customborder_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/attendances"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_total_count"
+                        android:text="@string/total_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_total_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberSigned"
+                        android:text="0"
+                        android:enabled="false"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_officers_count"
+                        android:text="@string/officers_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_officers_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_sub_officers_count"
+                        android:text="@string/sub_officers_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_sub_officers_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_singles_count"
+                        android:text="@string/singles_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_singles_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_appendices_count"
+                        android:text="@string/appendices_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_appendices_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/customborder_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/absences"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_vacation_count"
+                        android:text="@string/vacation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_vacation_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_hospital_count"
+                        android:text="@string/hospital"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_hospital_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_recovery_count"
+                        android:text="@string/recovery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_recovery_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_mission_count"
+                        android:text="@string/mission"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_mission_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_leaving_count"
+                        android:text="@string/leaving"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_leaving_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_prison_count"
+                        android:text="@string/prison"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_prison_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_unjustified_absence_count"
+                        android:text="@string/unjustified_absence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_unjustified_absence_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:text="0"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_total_absence_count"
+                        android:text="@string/total_absence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:id="@+id/et_total_absence_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:enabled="false"
+                        android:inputType="numberSigned"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/customborder"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_under_gun_count"
+                    android:text="@string/under_gun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/et_under_gun_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text="0"
+                    android:enabled="false"
+                    tools:ignore="Autofill,HardcodedText,LabelFor" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    absences-->
+    <LinearLayout
+        android:id="@+id/ll_absences"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layoutDirection="rtl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/b_add_absence"
+                android:text="@string/add_soldier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/et_absence_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="ltr"
+                tools:ignore="Autofill,LabelFor,TextFields" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv_absences"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+<!--    details-->
+    <LinearLayout
+        android:id="@+id/ll_details"
+        android:orientation="vertical"
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <EditText
+                android:id="@+id/et_details"
+                android:inputType="text|textMultiLine|textCapSentences"
+                android:lines="16"
+                android:minLines="8"
+                android:focusable="true"
+                android:gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:scrollbars="vertical"
+                android:imeOptions="normal"
+                android:scrollHorizontally="false"
+                tools:ignore="Autofill,LabelFor" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "native-lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-native-lib-RelWithDebInfo-f3cd154f868214c6d0b4.json",
+					"name" : "native-lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/RelWithDebInfo/642ny1y4/armeabi-v7a",
+		"source" : "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

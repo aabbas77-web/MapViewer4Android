@@ -1,0 +1,84 @@
+[1]
+UAV and Device Camera calibration must be tested deeply and separatly...
+            // TODO test calibration
+            float[] res = MainActivity.GetCalibrationDataJNI();
+//            MainActivity.dYaw = res[0];
+//            MainActivity.dPitch = res[1];
+//            MainActivity.dRoll = res[2];
+            MainActivity.dYaw = 0.0f;
+            MainActivity.dPitch = 0.0f;
+            MainActivity.dRoll = 0.0f;
+
+[2] ok
+Add Screen Capture with Broadcasting...
+
+[3]
+Add sqlite database for each user to enhance speed.
+
+[4] ok
+Add Import/Export IPs dictionary (ip, name, phone)
+
+[5]
+Use large maps/dem/data from external SD card.
+
+[6] ok
+Add placemarks with Modar tables.
+
+[7] ok
+Test GUI with different mobile sizes and versions in emulator and languages.
+
+[8]
+Add Day/Night Theme.
+
+[9]
+Create Lite version without DJI SDK.
+
+[10]
+Add informations about signal strength,...
+
+[11]
+Add informations about data usage percentage...
+
+[12]
+Add capabilty to send large files by dividing them...
+
+[13]
+Measure frame rate...
+	long startTime = System.nanoTime();
+	// ... the code being measured ...
+	long estimatedTime = System.nanoTime() - startTime;
+
+[14]
+Send/Receive Maps...
+
+[15]
+Add new color to show that this user is online.
+
+[16]ok
+Bug in placemarks delete.
+
+[17]ok
+Replace same placemarks without adding new placemarks.
+
+[18]
+Update connection states periodically to show when client close or reconnect...
+
+[19]
+Create 3D view using worldwind...
+
+[20]
+Add more protection to app code
+
+[21]
+Add notifications when message arrive and sent...
+
+[22]
+Add file send progress bar...
+
+[23]
+Disable screen lock when using MapViewer...
+
+[24]
+Show message when changing settings (for example user name,...).
+
+[25]

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1200dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cityname"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+        <TextView
+            android:id="@+id/tv_coordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="0.000000,0.000000,0.0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/lv_goto"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:text="@string/goto_here"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/lv_lookat"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            android:text="@string/look_at_here"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/lv_panorama"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            android:text="@string/panorama"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/lv_follow_path"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            android:text="@string/follow_path"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/lv_stitch_path"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            android:text="@string/stitch_path"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/lv_fake_gps"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0"
+            android:layout_gravity="center_vertical"
+            android:text="@string/fake_gps"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/lv_delete"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@drawable/close_app_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="0"
+            android:text=""
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="@string/info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+    </LinearLayout>
+
+</HorizontalScrollView>

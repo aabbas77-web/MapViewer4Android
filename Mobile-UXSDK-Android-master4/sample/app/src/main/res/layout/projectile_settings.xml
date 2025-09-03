@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="false"
+            tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/ads_view"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:text="Altitude Above Sea Level"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/e_projectile_altitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="5000"
+                    android:importantForAutofill="no"
+                    android:layout_weight="1"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:text="Velocity"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/e_projectile_velocity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:text="80"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:layout_weight="1"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:text="Angle"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/e_projectile_angle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:text="0"
+                    android:layout_weight="1"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:text="Wind"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/e_projectile_wind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:text="0"
+                    android:layout_weight="1"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:text="Mass"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/e_projectile_mass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:text="10"
+                    android:layout_weight="1"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:text="Diameter"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/e_projectile_diameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="numberDecimal|numberSigned"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:text="0.1"
+                    android:layout_weight="1"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cb_auto_projectile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Auto Projectile" />
+
+                <CheckBox
+                    android:id="@+id/cb_auto_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="Auto Update" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarStyle"
+            android:layout_weight = "1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/b_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarStyle"
+            android:layout_weight = "1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

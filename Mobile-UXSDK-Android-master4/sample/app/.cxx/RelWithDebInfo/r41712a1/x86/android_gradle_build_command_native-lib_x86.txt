@@ -1,0 +1,7 @@
+Executable : D:\Android\SDK\PlatformSDKs\sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master4\sample\app\.cxx\RelWithDebInfo\r41712a1\x86
+native-lib
+jvmArgs : 
+

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_help_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/ib_oghab_mapviewer"
+                    android:layout_width="150dp"
+                    android:layout_height="128dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/oghab_mapviewer"
+                    android:padding="10dp"
+                    android:contentDescription="@string/about" />
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/ib_oti"-->
+<!--                    android:layout_width="300dp"-->
+<!--                    android:layout_height="128dp"-->
+<!--                    android:contentDescription="@string/about"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:scaleType="centerInside"-->
+<!--                    android:src="@drawable/oti"-->
+<!--                    tools:visibility="gone" />-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/ib_syriatel"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="128dp"-->
+<!--                    android:contentDescription="@string/about"-->
+<!--                    android:padding="10dp"-->
+<!--                    android:scaleType="centerInside"-->
+<!--                    android:src="@drawable/syriatel"-->
+<!--                    tools:visibility="gone" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/b_activate_sdk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activate_sdk" />
+
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:layout_margin="10dp"
+                        android:background="@color/gray"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        tools:text="Version"/>
+                </LinearLayout>
+
+<!--                <ImageView-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="128dp"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:src="@drawable/haras"-->
+<!--                    tools:visibility="gone" />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="128dp"-->
+<!--                    android:layout_height="128dp"-->
+<!--                    android:padding="3dp"-->
+<!--                    android:src="@drawable/syrian_army"-->
+<!--                    tools:visibility="gone" />-->
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/os_abi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="3dp"
+                tools:text="ABIs"/>
+
+            <TextView
+                android:id="@+id/sdk_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="3dp"
+                tools:text="SDK Version"/>
+
+            <TextView
+                android:id="@+id/mapviewer_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="3dp"
+                tools:text="MapViewer Version"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    android:text="@string/mapviewer_help"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="10dp"
+                    android:textSize="24sp" />
+
+            </ScrollView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

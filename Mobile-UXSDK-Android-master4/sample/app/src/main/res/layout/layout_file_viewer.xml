@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_file_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/siv_close"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:src="@drawable/close_icon"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/siv_open"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="1dp"
+                    android:padding="1dp"
+                    android:src="@drawable/folder_open_icon"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/siv_play"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="1dp"
+                        android:padding="1dp"
+                        android:src="@drawable/play_icon"/>
+                </LinearLayout>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/b_import_ips"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="1dp"
+                    android:padding="1dp"
+                    android:src="@drawable/import_icon"/>
+
+                <TextView
+                    android:id="@+id/tv_filename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/customborder"
+                    android:singleLine="false"
+                    android:text="@string/mapviewer"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <ScrollView
+        android:background="@drawable/customborder"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="false"
+                    android:text="@string/mapviewer_help"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorPrimary"/>
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:src="@drawable/oghab_mapviewer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="ContentDescription"/>
+
+                <VideoView
+                    android:id="@+id/vv_video"
+                    android:src="@drawable/video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

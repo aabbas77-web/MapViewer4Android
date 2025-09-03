@@ -1,0 +1,23 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 22 min SDK version: armeabi-v7a",
+    "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi-v7a",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

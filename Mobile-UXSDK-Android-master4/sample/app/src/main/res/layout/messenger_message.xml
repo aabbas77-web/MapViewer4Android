@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/ll_view1"
+	android:orientation="horizontal"
+	android:gravity="start"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<com.google.android.material.imageview.ShapeableImageView
+		android:id="@+id/avatar"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:layout_gravity="bottom"
+		android:layout_margin="1dp"
+		android:padding="3dp"
+		android:src="@drawable/avatar48"
+		app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+		app:strokeColor="#ff0000"
+		app:strokeWidth="1dp" />
+
+	<LinearLayout
+		android:id="@+id/ll_view2"
+		android:orientation="vertical"
+		android:background="@drawable/dialog_received"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		tools:ignore="UselessParent">
+
+		<TextView
+			android:id="@+id/textView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="MapViewer"
+			android:textColor="@color/sent_text_color"
+			tools:ignore="HardcodedText" />
+	</LinearLayout>
+
+</LinearLayout>

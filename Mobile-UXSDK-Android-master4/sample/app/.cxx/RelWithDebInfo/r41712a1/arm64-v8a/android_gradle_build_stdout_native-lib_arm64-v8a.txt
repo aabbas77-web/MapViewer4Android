@@ -1,0 +1,90 @@
+ninja: Entering directory `D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master4\sample\app\.cxx\RelWithDebInfo\r41712a1\arm64-v8a'
+[1/43] Building CXX object CMakeFiles/native-lib.dir/tcp_server.cpp.o
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_server.cpp:20:9: warning: '_GNU_SOURCE' macro redefined [-Wmacro-redefined]
+#define _GNU_SOURCE     /* To get defns of NI_MAXSERV and NI_MAXHOST */
+        ^
+<built-in>:403:9: note: previous definition is here
+#define _GNU_SOURCE 1
+        ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_server.cpp:64:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_server.cpp:148:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_server.cpp:200:23: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            message = "Hello Client , I have received your connection. And now I will assign a handler for you\n";
+                      ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_server.cpp:243:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        message = "Greetings! I am your connection handler\n";
+                  ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_server.cpp:246:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        message = "Now type something and i shall repeat what you type \n";
+                  ^
+6 warnings generated.
+[2/43] Building CXX object CMakeFiles/native-lib.dir/GeoLocationLib.cpp.o
+[3/43] Building CXX object CMakeFiles/native-lib.dir/LatLong-UTMconversion.cpp.o
+[4/43] Building CXX object CMakeFiles/native-lib.dir/Protection.cpp.o
+[5/43] Building CXX object CMakeFiles/native-lib.dir/iniFile.cpp.o
+[6/43] Building CXX object CMakeFiles/native-lib.dir/tcp_lib.cpp.o
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_lib.cpp:261:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_lib.cpp:273:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_lib.cpp:314:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_lib.cpp:326:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+4 warnings generated.
+[7/43] Building CXX object CMakeFiles/native-lib.dir/tcp_io_handler.cpp.o
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_io_handler.cpp:502:1: warning: non-void function does not return a value in all control paths [-Wreturn-type]
+}
+^
+1 warning generated.
+[8/43] Building CXX object CMakeFiles/native-lib.dir/tcp_client.cpp.o
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_client.cpp:53:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        message = "GET / HTTP/1.1\r\n\r\n";
+                  ^
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/src/main/cpp/tcp_client.cpp:76:1: warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+2 warnings generated.
+[9/43] Building CXX object CMakeFiles/native-lib.dir/mission.cpp.o
+[10/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Lock.cpp.o
+[11/43] Building CXX object CMakeFiles/native-lib.dir/hasan.cpp.o
+[12/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Clock.cpp.o
+[13/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/ClockImpl.cpp.o
+[14/43] Building CXX object CMakeFiles/native-lib.dir/hosien.cpp.o
+[15/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/MemoryInputStream.cpp.o
+[16/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/MutexImpl.cpp.o
+[17/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Mutex.cpp.o
+[18/43] Building CXX object CMakeFiles/native-lib.dir/adam.cpp.o
+[19/43] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+[20/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/SleepImpl.cpp.o
+[21/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Thread.cpp.o
+[22/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Sleep.cpp.o
+[23/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/ThreadLocalImpl.cpp.o
+[24/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/ThreadLocal.cpp.o
+[25/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/FileInputStream.cpp.o
+[26/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Err.cpp.o
+[27/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/ThreadImpl.cpp.o
+[28/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/Socket.cpp.o
+[29/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/SocketSelector.cpp.o
+[30/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/IpAddress.cpp.o
+[31/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Time.cpp.o
+[32/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/Packet.cpp.o
+[33/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/String.cpp.o
+[34/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/NativeActivity.cpp.o
+[35/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/Activity.cpp.o
+[36/43] Building CXX object CMakeFiles/native-lib.dir/SFML/System/ResourceStream.cpp.o
+[37/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/Http.cpp.o
+[38/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/TcpListener.cpp.o
+[39/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/TcpSocket.cpp.o
+[40/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/SocketImpl.cpp.o
+[41/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/UdpSocket.cpp.o
+[42/43] Building CXX object CMakeFiles/native-lib.dir/SFML/Network/Ftp.cpp.o
+[43/43] Linking CXX shared library D:\Ali\Geoscan\SDK\4.8.1\Mobile-UXSDK-Android-master4\sample\app\build\intermediates\cxx\RelWithDebInfo\r41712a1\obj\arm64-v8a\libnative-lib.so

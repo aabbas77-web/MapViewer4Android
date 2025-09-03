@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- DJI SDK need these permissions -->
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" tools:ignore="SystemPermissionTypo" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+<!--    2024.06.03-->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS" />
+<!--    <uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH" />-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />-->
+
+<!--    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />-->
+<!--    <uses-permission android:name="android.permission.WRITE_SMS" />-->
+
+<!--    <uses-permission android:name="android.permission.ACCESS_LOCATION" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_GPS" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />-->
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- DJI SDK need permission -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+<!--    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" tools:ignore="ProtectedPermissions" />-->
+<!--    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />-->
+<!--    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>-->
+<!--    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" tools:ignore="ProtectedPermissions" />-->
+
+    <uses-feature android:name="android.hardware.usb.host" android:required="false" />
+    <uses-feature android:name="android.hardware.usb.accessory" android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <!--    To Be Corrected-->
+    <uses-permission android:name="android.permission.INTERNET" />
+<!--    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />-->
+<!--    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" tools:ignore="ProtectedPermissions" />-->
+<!--    <uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <!--    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />-->
+<!--        <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />-->
+<!--    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<!--    <uses-permission android:name="android.permission.BODY_SENSORS" />-->
+
+<!--    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" tools:ignore="HighSamplingRate" />-->
+
+<!--    <uses-feature android:name="android.hardware.sensor.stepcounter" />-->
+<!--    <uses-feature android:name="android.hardware.sensor.stepdetector" />-->
+<!--    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>-->
+
+    <!--    To Be Corrected-->
+
+<!--    <uses-permission android:name="android.permission.VIBRATE" />-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH" />-->
+<!--    <uses-permission android:name="android.permission.INTERNET" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
+<!--    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+
+<!--    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>-->
+<!--    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>-->
+<!--    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>-->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+<!--    <queries>-->
+<!--        <package android:name="com.oghab.mapviewer" />-->
+<!--    </queries>-->
+
+    <application
+        android:name=".MApplication"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MapViewer"
+        tools:replace="android:label"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:requestLegacyExternalStorage="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:exported="true"
+        android:persistent="true"
+        tools:targetApi="s">
+
+        <service
+            android:name="com.oghab.mapviewer.launcher.MapViewerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:enabled="true" android:name="com.oghab.mapviewer.launcher.StartReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+        <!-- DJI SDK -->
+        <meta-data
+            android:name="com.dji.sdk.API_KEY"
+            android:value="eafdb622bc51ffcfd2c3a01c" />
+
+        <!-- Here Maps -->
+<!--        <meta-data android:name="com.here.android.maps.appid"-->
+<!--                   android:value=""/>-->
+<!--        <meta-data android:name="com.here.android.maps.apptoken"-->
+<!--                   android:value=""/>-->
+<!--        <meta-data android:name="com.here.android.maps.license.AHhha"-->
+<!--                   android:value=""/>-->
+
+        <!--<service-->
+            <!--android:name="com.here.android.mpa.service.MapService"-->
+            <!--android:label="HereMapService"-->
+            <!--android:process="global.Here.Map.Service.v3"-->
+            <!--android:exported="true"-->
+            <!--tools:ignore="ExportedService">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.here.android.mpa.service.MapService.v3" >-->
+                <!--</action>-->
+            <!--</intent-filter>-->
+        <!--</service>-->
+
+        <!-- Google Maps -->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.geo.API_KEY"-->
+<!--            android:value=""/>-->
+
+        <!-- AMaps -->
+<!--        <meta-data-->
+<!--            android:name="com.amap.api.v2.apikey"-->
+<!--            android:value=""/>-->
+
+<!--        android:name=".MainActivity"-->
+<!--        android:name=".MyGLActivity"-->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorLandscape"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme"
+            android:noHistory = "false"
+            android:hardwareAccelerated="false"
+            tools:ignore="LockedOrientationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name="mad.location.manager.lib.Services.KalmanLocationService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <activity android:name=".NotificationView"
+            android:label="Details of notification"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <receiver android:name=".IncomingDataSms"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="2147483646">
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED" />
+                <data android:scheme="sms" />
+                <data android:port="5555" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".IncomingSms"
+            android:exported="true"
+            android:enabled="true"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+<!--        <receiver android:name=".ChangeCallStateListener"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter android:priority="2147483647">-->
+<!--                <action android:name="android.intent.action.PHONE_STATE" />-->
+<!--            </intent-filter>-->
+<!--            <intent-filter android:priority="2147483647">-->
+<!--                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+
+<!--        <service android:name="your.package.YourCallScreeningServiceImplementation"-->
+<!--            android:permission="android.permission.BIND_SCREENING_SERVICE">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.telecom.CallScreeningService"/>-->
+<!--            </intent-filter>-->
+<!--        </service>-->
+
+<!--        <activity-->
+<!--            android:name="dji.sdk.sdkmanager.DJIAoaControllerActivity"-->
+<!--            android:theme="@android:style/Theme.Translucent">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />-->
+<!--            </intent-filter>-->
+
+<!--            <meta-data-->
+<!--                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"-->
+<!--                android:resource="@xml/accessory_filter" />-->
+<!--        </activity>-->
+
+<!--        <receiver-->
+<!--            android:name=".OnDJIUSBAttachedReceiver"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true"-->
+<!--            tools:ignore="ExportedReceiver">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.dji.accessory.USB_ACCESSORY_ATTACHED" />-->
+<!--            </intent-filter>-->
+
+<!--        </receiver>-->
+
+<!--        <activity android:name="com.oghab.mapviewer.mapviewer.ReaderActivity" android:exported="true">-->
+<!--            &lt;!&ndash;-->
+<!--                 Capture content by MIME type, which is how Gmail broadcasts-->
+<!--                 attachment open requests.  pathPattern and file extensions-->
+<!--                 are ignored, so the MIME type *MUST* be explicit, otherwise-->
+<!--                 we will match absolutely every file opened.-->
+<!--            &ndash;&gt;-->
+<!--            <intent-filter-->
+<!--                android:icon="@mipmap/ic_launcher"-->
+<!--                android:label="@string/app_name"-->
+<!--                android:priority="50" >-->
+<!--                <action android:name="android.intent.action.VIEW" />-->
+
+<!--                <category android:name="android.intent.category.BROWSABLE" />-->
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+
+<!--                <data android:scheme="file" />-->
+<!--                <data android:scheme="content" android:host="*" />-->
+<!--                <data android:mimeType="*/*" />-->
+
+<!--                &lt;!&ndash;<data android:pathPattern="..*kml" />&ndash;&gt;-->
+<!--                &lt;!&ndash;<data android:pathPattern=".*\\.kml" />&ndash;&gt;-->
+<!--                &lt;!&ndash;<data android:pathPattern=".*\\..*\\.kml" />&ndash;&gt;-->
+<!--                &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--                &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--                &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--                &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--                &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            </intent-filter>-->
+
+<!--            &lt;!&ndash;&lt;!&ndash;&ndash;&gt;-->
+<!--            &lt;!&ndash;Capture file open requests (pathPattern is honoured) where no&ndash;&gt;-->
+<!--            &lt;!&ndash;MIME type is provided in the Intent.  An Intent with a null&ndash;&gt;-->
+<!--            &lt;!&ndash;MIME type will never be matched by a filter with a set MIME&ndash;&gt;-->
+<!--            &lt;!&ndash;type, so we need a second intent-filter if we wish to also&ndash;&gt;-->
+<!--            &lt;!&ndash;match files with this extension and a non-null MIME type&ndash;&gt;-->
+<!--            &lt;!&ndash;(even if it is non-null but zero length).&ndash;&gt;-->
+<!--            &lt;!&ndash;&ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;<intent-filter&ndash;&gt;-->
+<!--            &lt;!&ndash;android:icon="@mipmap/ic_launcher"&ndash;&gt;-->
+<!--            &lt;!&ndash;android:label="@string/app_name"&ndash;&gt;-->
+<!--            &lt;!&ndash;android:priority="50" >&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.VIEW" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<category android:name="android.intent.category.BROWSABLE" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<data android:scheme="file" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:host="*" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;&lt;!&ndash;&ndash;&gt;-->
+<!--            &lt;!&ndash;Work around Android's ugly primitive PatternMatcher&ndash;&gt;-->
+<!--            &lt;!&ndash;implementation that can't cope with finding a . early in&ndash;&gt;-->
+<!--            &lt;!&ndash;the path unless it's explicitly matched.&ndash;&gt;-->
+<!--            &lt;!&ndash;&ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;</intent-filter>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;&lt;!&ndash;&ndash;&gt;-->
+<!--            &lt;!&ndash;Capture file open requests (pathPattern is honoured) where a&ndash;&gt;-->
+<!--            &lt;!&ndash;(possibly blank) MIME type is provided in the Intent.  This&ndash;&gt;-->
+<!--            &lt;!&ndash;filter may only be necessary for supporting ES File Explorer,&ndash;&gt;-->
+<!--            &lt;!&ndash;which has the probably buggy behaviour of using an Intent&ndash;&gt;-->
+<!--            &lt;!&ndash;with a MIME type that is set but zero-length.  It's&ndash;&gt;-->
+<!--            &lt;!&ndash;impossible to match such a type except by using a global&ndash;&gt;-->
+<!--            &lt;!&ndash;wildcard.&ndash;&gt;-->
+<!--            &lt;!&ndash;&ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;<intent-filter&ndash;&gt;-->
+<!--            &lt;!&ndash;android:icon="@mipmap/ic_launcher"&ndash;&gt;-->
+<!--            &lt;!&ndash;android:label="@string/app_name"&ndash;&gt;-->
+<!--            &lt;!&ndash;android:priority="50" >&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.VIEW" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<category android:name="android.intent.category.BROWSABLE" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<data android:scheme="file" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:host="*" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:mimeType="*/*" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;&lt;!&ndash;&ndash;&gt;-->
+<!--            &lt;!&ndash;Work around Android's ugly primitive PatternMatcher&ndash;&gt;-->
+<!--            &lt;!&ndash;implementation that can't cope with finding a . early in&ndash;&gt;-->
+<!--            &lt;!&ndash;the path unless it's explicitly matched.&ndash;&gt;-->
+<!--            &lt;!&ndash;&ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;</intent-filter>&ndash;&gt;-->
+
+<!--            &lt;!&ndash; Handling the files with mimeType="application/kml"-->
+<!--                and any file extension &ndash;&gt;-->
+<!--            &lt;!&ndash;<intent-filter>&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.VIEW"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="com.dji.sdk.sample.mapviewer.LAUNCH" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<category android:name="android.intent.category.DEFAULT"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.BROWSABLE"/>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<data android:host="*"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:mimeType="application/kml"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:scheme="content"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:scheme="file"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;</intent-filter>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;&lt;!&ndash; Handling the files with any mimeType&ndash;&gt;-->
+<!--            &lt;!&ndash;and file extension ".kml" &ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;<intent-filter>&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.VIEW"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="com.dji.sdk.sample.mapviewer.LAUNCH" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<category android:name="android.intent.category.DEFAULT"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.BROWSABLE"/>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<data android:host="*"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:mimeType="*/*"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:pathPattern=".*\\.kml"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:scheme="content"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:scheme="file"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;</intent-filter>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<intent-filter >&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.VIEW" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.EDIT" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.PICK" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.BROWSABLE" />&ndash;&gt;-->
+<!--            &lt;!&ndash;&lt;!&ndash;<data android:mimeType="text/kml" android:scheme="file" android:host="*" android:pathPattern=".*\\.kml" />&ndash;&gt;&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:mimeType="*/*" android:scheme="file" android:host="*" android:pathPattern=".*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:scheme="content" android:pathPattern=".*\\.kml" android:mimeType="application/octet-stream" />&ndash;&gt;-->
+<!--            &lt;!&ndash;</intent-filter>&ndash;&gt;-->
+<!--            &lt;!&ndash;<intent-filter>&ndash;&gt;-->
+<!--            &lt;!&ndash;<action android:name="android.intent.action.VIEW" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.DEFAULT" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<category android:name="android.intent.category.BROWSABLE" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;<data android:mimeType="text/kml" android:scheme="http" android:host="*" android:pathPattern=".*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;<data android:mimeType="text/kml" android:scheme="https" android:host="*" android:pathPattern=".*\\.kml" />&ndash;&gt;-->
+<!--            &lt;!&ndash;</intent-filter>&ndash;&gt;-->
+<!--        </activity>-->
+
+        <activity
+            android:name=".DJIConnectionControlActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:hardwareAccelerated="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter" />
+        </activity>
+
+        <activity android:name=".IconActivity" android:hardwareAccelerated="false" android:exported="true"/>
+
+    </application>
+
+</manifest>

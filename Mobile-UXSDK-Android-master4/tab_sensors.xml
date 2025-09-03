@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/sensors_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborder"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_dead_reckoning_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:visibility="gone"
+                android:text="@string/dead_reckoning_navigation" />
+
+            <CheckBox
+                android:id="@+id/cb_cam_pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/device_camera_position" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gps_lon" />
+
+                <EditText
+                    android:id="@+id/gps_lon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="0.000000"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gps_lat" />
+
+                <EditText
+                    android:id="@+id/gps_lat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="0.000000"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gps_alt" />
+
+                <EditText
+                    android:id="@+id/gps_alt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="2.0"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cb_cam_angles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/device_camera_angles" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yaw" />
+
+                <EditText
+                    android:id="@+id/cam_yaw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:text="0.00"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pitch" />
+
+                <EditText
+                    android:id="@+id/cam_pitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:text="0.00"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/roll" />
+
+                <EditText
+                    android:id="@+id/cam_roll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:text="0.00"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cb_meta_detection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/metal_detection" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/metal_power" />
+
+                <EditText
+                    android:id="@+id/et_metal_power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:text="0"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vibration_threshold" />
+
+                <EditText
+                    android:id="@+id/et_metal_threshold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:text="120"
+                    tools:ignore="HardcodedText,LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+﻿[Calibration]
+dYaw = 0.000000
+dPitch = 0.000000
+dRoll = 0.000000
+
+
+[Localization]
+w = 256.000000
+h = 256.000000
+target_x = 0.000000
+target_y = 0.000000
+fov_h = 74.344574
+fov_v = 74.344574
+uav_lon = 36.266616
+uav_lat = 33.533074
+uav_alt = 1082.092285
+uav_yaw = 0.000000
+uav_pitch = 0.000000
+uav_roll = 0.000000
+gimb_azi = 0.000000
+gimb_ele = -90.000000
+max_dist = 0.000000
+step = 10.000000
+laser_dist = 0.000000
+target_lon = 36.697083
+target_lat = 33.831638
+target_alt = 939.078369
+home_lon = 0.000000
+home_lat = 0.000000
+map_lon = 36.276491
+map_lat = 33.513866
+map_zoom = 16.000000
+
+
+[Settings]
+bDebug = 1

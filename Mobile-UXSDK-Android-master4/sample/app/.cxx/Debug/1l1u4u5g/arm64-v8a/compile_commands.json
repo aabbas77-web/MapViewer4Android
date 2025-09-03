@@ -1,0 +1,79 @@
+[
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\native-lib.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\native-lib.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\LatLong-UTMconversion.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\LatLong-UTMconversion.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\LatLong-UTMconversion.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\GeoLocationLib.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\GeoLocationLib.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\GeoLocationLib.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\mission.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\mission.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\mission.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\iniFile.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\iniFile.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\iniFile.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\Protection.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\Protection.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\Protection.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_lib.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_lib.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_lib.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_server.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_server.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_server.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_client.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_client.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_client.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\tcp_io_handler.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_io_handler.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\tcp_io_handler.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\hosien.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\hosien.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\hosien.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\hasan.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\hasan.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\hasan.cpp"
+},
+
+{
+  "directory": "D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master/sample/app/.cxx/Debug/1l1u4u5g/arm64-v8a",
+  "command": "D:\\Android\\SDK\\PlatformSDKs\\sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android22 --gcc-toolchain=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/SDK/PlatformSDKs/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-lib.dir\\adam.cpp.o -c D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\adam.cpp",
+  "file": "D:\\Ali\\Geoscan\\SDK\\4.8.1\\Mobile-UXSDK-Android-master\\sample\\app\\src\\main\\cpp\\adam.cpp"
+}
+]

@@ -1,0 +1,3 @@
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/Debug/42537053/armeabi-v7a/CMakeFiles/native-lib.dir
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/Debug/42537053/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Ali/Geoscan/SDK/4.8.1/Mobile-UXSDK-Android-master4/sample/app/.cxx/Debug/42537053/armeabi-v7a/CMakeFiles/rebuild_cache.dir

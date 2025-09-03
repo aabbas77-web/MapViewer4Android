@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout_map_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textDirection="ltr">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <CheckBox
+                        android:id="@+id/sw_auto_convert"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:background="@drawable/customborder"
+                        android:text="@string/auto" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+<!--                    <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:text="@string/zoom_at_coordinates"-->
+<!--                            android:textAppearance="@style/TextAppearance.AppCompat.Button" />-->
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lat" />
+
+                    <EditText
+                        android:id="@+id/pos_lat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/pos_lon"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/pos_lat"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N"
+                        tools:ignore="HardcodedText" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lon" />
+
+                    <EditText
+                        android:id="@+id/pos_lon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/pos_lat_d"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/pos_lon"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        tools:ignore="HardcodedText" />
+
+                    <Button
+                        android:id="@+id/b_convert_decimal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:text="@string/convert" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lat_dms" />
+
+                    <EditText
+                        android:id="@+id/pos_lat_d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:digits="1234567890"
+                        android:inputType="numberSigned"
+                        android:nextFocusDown="@+id/pos_lat_m"
+                        android:singleLine="true"
+                        android:text="00"
+                        android:hint="@+id/pos_lat_d"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <EditText
+                        android:id="@+id/pos_lat_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:digits="1234567890"
+                        android:inputType="number"
+                        android:nextFocusDown="@+id/pos_lat_s"
+                        android:singleLine="true"
+                        android:text="00"
+                        android:hint="@+id/pos_lat_m"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <EditText
+                        android:id="@+id/pos_lat_s"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:digits="1234567890."
+                        android:inputType="numberDecimal"
+                        android:nextFocusDown="@+id/pos_lon_d"
+                        android:singleLine="true"
+                        android:text="00.00"
+                        android:hint="@+id/pos_lat_s"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N"
+                        tools:ignore="HardcodedText" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lon_dms" />
+
+                    <EditText
+                        android:id="@+id/pos_lon_d"
+                        android:layout_width="48dp"
+                        android:layout_height="match_parent"
+                        android:digits="1234567890:."
+                        android:inputType="numberSigned"
+                        android:nextFocusDown="@+id/pos_lon_m"
+                        android:singleLine="true"
+                        android:text="00"
+                        android:hint="@+id/pos_lon_d"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <EditText
+                        android:id="@+id/pos_lon_m"
+                        android:layout_width="48dp"
+                        android:layout_height="match_parent"
+                        android:digits="1234567890:."
+                        android:inputType="number"
+                        android:nextFocusDown="@+id/pos_lon_s"
+                        android:singleLine="true"
+                        android:text="00"
+                        android:hint="@+id/pos_lon_m"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <EditText
+                        android:id="@+id/pos_lon_s"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:digits="1234567890."
+                        android:inputType="numberDecimal"
+                        android:nextFocusDown="@+id/Y_utm"
+                        android:singleLine="true"
+                        android:text="00.00"
+                        android:hint="@+id/pos_lon_s"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        tools:ignore="HardcodedText" />
+
+                    <Button
+                        android:id="@+id/b_convert_dms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:text="@string/convert" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lat_dms" />
+
+                    <NumberPicker
+                        android:id="@+id/pos_lat_degrees"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:digits="1234567890"
+                        android:inputType="numberSigned"
+                        android:nextFocusDown="@+id/pos_lat_m"
+                        android:singleLine="true"
+                        android:solidColor="@color/red"
+                        android:theme="@style/NumberPickerText"
+                        tools:ignore="HardcodedText" />
+
+                    <NumberPicker
+                        android:id="@+id/pos_lat_minutes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:digits="1234567890"
+                        android:inputType="number"
+                        android:nextFocusDown="@+id/pos_lat_s"
+                        android:singleLine="true"
+                        android:solidColor="@color/green"
+                        android:theme="@style/NumberPickerText"
+                        tools:ignore="HardcodedText" />
+
+                    <NumberPicker
+                        android:id="@+id/pos_lat_seconds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:digits="1234567890"
+                        android:inputType="numberDecimal"
+                        android:nextFocusDown="@+id/X_utm"
+                        android:singleLine="true"
+                        android:solidColor="@color/blue"
+                        android:theme="@style/NumberPickerText"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N"
+                        tools:ignore="HardcodedText" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lon_dms" />
+
+                    <NumberPicker
+                        android:id="@+id/pos_lon_degrees"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:digits="1234567890"
+                        android:inputType="numberSigned"
+                        android:nextFocusDown="@+id/pos_lon_m"
+                        android:singleLine="true"
+                        android:solidColor="@color/red"
+                        android:theme="@style/NumberPickerText"
+                        tools:ignore="HardcodedText" />
+
+                    <NumberPicker
+                        android:id="@+id/pos_lon_minutes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:digits="1234567890"
+                        android:inputType="number"
+                        android:nextFocusDown="@+id/pos_lon_s"
+                        android:singleLine="true"
+                        android:solidColor="@color/green"
+                        android:theme="@style/NumberPickerText"
+                        tools:ignore="HardcodedText" />
+
+                    <NumberPicker
+                        android:id="@+id/pos_lon_seconds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:digits="1234567890"
+                        android:inputType="numberDecimal"
+                        android:nextFocusDown="@+id/pos_lat_d"
+                        android:singleLine="true"
+                        android:solidColor="@color/blue"
+                        android:theme="@style/NumberPickerText"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        tools:ignore="HardcodedText" />
+
+                    <Button
+                        android:id="@+id/b_convert_dms2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/convert" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_utm" />
+
+                    <EditText
+                        android:id="@+id/Y_utm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/X_utm"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/Y_utm"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/x_utm" />
+
+                    <EditText
+                        android:id="@+id/X_utm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/zone_utm1"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/X_utm"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zone" />
+
+                    <EditText
+                        android:id="@+id/zone_utm1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:nextFocusDown="@+id/zone_utm2"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:hint="@+id/zone_utm1"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <EditText
+                        android:id="@+id/zone_utm2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:digits="CDEFGHJKLMNPQRSTUVWX"
+                        android:inputType="textCapCharacters|textFilter|textPhonetic"
+                        android:maxLength="1"
+                        android:nextFocusDown="@+id/Y_stm"
+                        android:singleLine="true"
+                        android:text="S"
+                        android:hint="@+id/zone_utm2"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <Button
+                        android:id="@+id/b_convert_utm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/convert" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_stm" />
+
+                    <EditText
+                        android:id="@+id/Y_stm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/X_stm"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/Y_stm"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/x_stm" />
+
+                    <EditText
+                        android:id="@+id/X_stm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/zone_stm"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/X_stm"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zone" />
+
+                    <EditText
+                        android:id="@+id/zone_stm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:nextFocusDown="@+id/lat_sk42"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:hint="@+id/zone_stm"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <Button
+                        android:id="@+id/b_convert_stm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/convert" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lat_sk42" />
+
+                    <EditText
+                        android:id="@+id/lat_sk42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/lon_sk42"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/lat_sk42"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="N"
+                        tools:ignore="HardcodedText" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lon_sk42" />
+
+                    <EditText
+                        android:id="@+id/lon_sk42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/Y_sk42"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/lon_sk42"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        tools:ignore="HardcodedText" />
+
+                    <Button
+                        android:id="@+id/b_convert_sk42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/convert" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y_sk42" />
+
+                    <EditText
+                        android:id="@+id/X_sk42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/X_sk42"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/Y_sk42"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/x_sk42" />
+
+                    <EditText
+                        android:id="@+id/Y_sk42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:nextFocusDown="@+id/zone_sk42"
+                        android:singleLine="true"
+                        android:text="0.000000"
+                        android:hint="@+id/X_sk42"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zone" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GK"
+                        tools:ignore="HardcodedText" />
+
+                    <EditText
+                        android:id="@+id/zone_sk42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:nextFocusDown="@+id/pos_lat"
+                        android:singleLine="true"
+                        android:text="0"
+                        android:hint="@+id/zone_sk42"
+                        android:selectAllOnFocus="true"
+                        tools:ignore="Autofill,HardcodedText,LabelFor" />
+
+                    <Button
+                        android:id="@+id/b_convert_sk42GK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/convert" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

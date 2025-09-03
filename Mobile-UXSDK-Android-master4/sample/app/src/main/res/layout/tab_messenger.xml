@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_settings"
+                android:layoutDirection="locale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/customborder"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ll_user_settings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/customborder"
+                        android:padding="3dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_server_name"
+                                android:text="@string/name"
+                                android:gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"/>
+
+                            <EditText
+                                android:id="@+id/et_server_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:ems="7"
+                                android:minHeight="48dp"
+                                android:text="Guest"
+                                android:textAlignment="center"
+                                tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck"
+                                android:inputType="text" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/customborder"
+                            android:visibility="visible"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_server_phone_number"
+                                android:text="@string/phone_number"
+                                android:gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"/>
+
+                            <EditText
+                                android:id="@+id/et_server_phone_number"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:ems="7"
+                                android:minHeight="48dp"
+                                android:text=""
+                                android:textAlignment="center"
+                                tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck"
+                                android:inputType="phone" />
+                        </LinearLayout>
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/b_avatar"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="1dp"
+                            android:padding="1dp"
+                            android:src="@drawable/avatar48"
+                            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+                            app:strokeColor="#ff0000"
+                            app:strokeWidth="1dp" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/b_delete_user"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="1dp"
+                            android:padding="1dp"
+                            android:src="@drawable/delete_user"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_user_connection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/customborder"
+                        android:padding="3dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_delete_all"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="1dp"
+                                android:src="@drawable/delete_all"/>
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_import_ips"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="1dp"
+                                android:src="@drawable/import_icon"/>
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_export_ips"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="1dp"
+                                android:src="@drawable/export_icon"/>
+                        </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/sw_audio_auto_play"
+                            android:background="@drawable/customborder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/audio_autoplay" />
+
+                        <LinearLayout
+                            android:id="@+id/ll_server_port"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="@string/port"
+                                android:visibility="visible"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <EditText
+                                android:id="@+id/et_server_port"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="3"
+                                android:minHeight="48dp"
+                                android:text="6000"
+                                android:textAlignment="center"
+                                android:inputType="number|numberDecimal"
+                                android:digits="0123456789"
+                                android:visibility="visible"
+                                tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_connection_timeout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv_connect_timeout"
+                                android:text="@string/connect_timeout"
+                                android:gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"/>
+
+                            <EditText
+                                android:id="@+id/et_connect_timeout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:ems="3"
+                                android:minHeight="48dp"
+                                android:text="1000"
+                                android:textAlignment="center"
+                                tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck"
+                                android:inputType="numberSigned" />
+                        </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/sw_received_location_as_gps"
+                            android:background="@drawable/customborder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/received_location_as_gps" />
+
+                        <CheckBox
+                            android:id="@+id/sw_encode"
+                            android:background="@drawable/customborder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:checked="true"
+                            android:text="@string/encode" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_status"
+                android:layoutDirection="locale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/customborder"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/layout_sys_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <HorizontalScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <CheckBox
+                                android:id="@+id/sw_listen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="48dp"
+                                android:visibility="gone"
+                                android:text="@string/listen" />
+
+                            <TextView
+                                android:id="@+id/textView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:text="   "
+                                tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+
+                            <TextView
+                                android:id="@+id/tv_server_ip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:background="@drawable/customborder2"
+                                android:textColor="@color/colorWhite"
+                                android:text="127.0.0.1"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                tools:ignore="HardcodedText" />
+
+                                <CheckBox
+                                    android:id="@+id/cb_user_list"
+                                    android:layout_width="48dp"
+                                    android:layout_height="48dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_margin="1dp"
+                                    android:padding="3dp"
+                                    android:button="@null"
+                                    android:checked="true"
+                                    android:background="@drawable/checked_user_group"
+                                    android:text="" />
+
+                            <Button
+                                android:id="@+id/b_clear"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:text="Clear" />
+
+                            <Button
+                                android:id="@+id/b_clear2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:text="Clear" />
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:visibility="visible"
+                                    android:layout_weight="0.5"
+                                    android:gravity="center_vertical"
+                                    android:layout_width="match_parent"
+                                    android:background="@drawable/customborder"
+                                    android:layout_height="wrap_content">
+
+                                    <com.mohammedalaa.valuecounterlib.ValueCounterView
+                                        app:valueColor="@color/black"
+                                        app:defaultValue="1"
+                                        app:addButton="@drawable/ic_add_24dp"
+                                        app:subButton="@drawable/ic_sub_24dp"
+                                        app:stepValue="1"
+                                        app:minValue="1"
+                                        app:maxValue="1000"
+                                        app:labelColor="@color/colorPrimary"
+                                        app:labelText="Page"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintLeft_toLeftOf="parent"
+                                        app:layout_constraintRight_toRightOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        android:id="@+id/pageCounter"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="48dp">
+                                    </com.mohammedalaa.valuecounterlib.ValueCounterView>
+
+                                    <com.google.android.material.imageview.ShapeableImageView
+                                        android:id="@+id/b_call_server"
+                                        android:layout_width="48dp"
+                                        android:layout_height="48dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_margin="1dp"
+                                        android:padding="3dp"
+                                        android:src="@drawable/smartphone_icon2" />
+
+                                    <LinearLayout
+                                        android:id="@+id/ll_phone_number"
+                                        android:orientation="horizontal"
+                                        android:gravity="center_vertical"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <com.google.android.material.imageview.ShapeableImageView
+                                            android:id="@+id/b_call"
+                                            android:layout_width="48dp"
+                                            android:layout_height="48dp"
+                                            android:layout_gravity="center_vertical"
+                                            android:layout_margin="1dp"
+                                            android:padding="3dp"
+                                            android:src="@drawable/smartphone_icon" />
+
+                                        <TextView
+                                            android:id="@+id/tv_ip_phone_number"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="09xxxxxxxx"
+                                            android:textColor="#2196F3"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold"
+                                            android:gravity="center_vertical"
+                                            tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/tv_status"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="MapViewer"
+                                android:textColor="#DD2C00"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:gravity="center_vertical"
+                                android:paddingStart="5dp"
+                                android:paddingEnd="5dp"
+                                tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+                        </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/ll_messages_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/customborder"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/ll_user_list"
+                        android:orientation="vertical"
+                        android:background="@drawable/customborder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:background="@drawable/customborder"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_active_connections"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="1dp"
+                                android:src="@drawable/groups_icon" />
+
+                            <CheckBox
+                                android:id="@+id/sw_this_range_only"
+                                android:layout_width="wrap_content"
+                                android:layout_height="48dp"
+                                android:checked="true"
+                                android:text="@string/this_range_only" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_users_refresh"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="1dp"
+                                android:src="@drawable/refresh_icon" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/customborder"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:text="@string/ip"
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <EditText
+                                android:id="@+id/et_server_ip"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="7"
+                                android:textSize="15sp"
+                                android:minHeight="48dp"
+                                android:text="133.100.100.103"
+                                android:textAlignment="center"
+                                android:inputType="text"
+                                android:digits="0123456789."
+                                tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_connect"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="1dp"
+                                android:src="@drawable/connect_icon"/>
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_disconnect"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="1dp"
+                                android:enabled="false"
+                                android:visibility="gone"
+                                android:src="@drawable/disconnect_icon"/>
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_ips"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/ll_send_to_server"
+                            android:layout_width="match_parent"
+                            android:layout_height="64dp"
+                            android:background="@drawable/customborder"
+                            android:layout_weight="0.5"
+                            android:layoutDirection="locale"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_send_location_to_server"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="3dp"
+                                android:src="@drawable/location_icon"/>
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_send_buzz_to_server"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="3dp"
+                                android:src="@drawable/buzz_icon128"/>
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_send_file_to_server"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="3dp"
+                                android:src="@drawable/attachment_icon"/>
+
+                            <CheckBox
+                                android:id="@+id/cb_send_voice_to_server"
+                                android:background="@drawable/checked_voice"
+                                android:button="@null"
+                                android:checked="false"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:text="" />
+
+<!--                            <com.google.android.material.imageview.ShapeableImageView-->
+<!--                                android:id="@+id/siv_send_voice_to_server_messenger"-->
+<!--                                android:layout_width="48dp"-->
+<!--                                android:layout_height="48dp"-->
+<!--                                android:layout_gravity="center_vertical"-->
+<!--                                android:layout_margin="1dp"-->
+<!--                                android:padding="1dp"-->
+<!--                                android:src="@drawable/voice_recoder" />-->
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/btn_open_dialog"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="3dp"
+                                android:visibility="gone"
+                                android:src="@drawable/icons" />
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/b_send_to_server"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_margin="1dp"
+                                android:padding="3dp"
+                                android:src="@drawable/telegram_icon" />
+
+                            <EditText
+                                android:id="@+id/et_message"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:minHeight="48dp"
+                                android:textAlignment="center"
+                                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+                        </LinearLayout>
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/tile_background"
+                            android:layout_weight="9"
+                            tools:ignore="SpeakableTextPresentCheck">
+
+                            <LinearLayout
+                                android:id="@+id/ll_messages"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_version_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MapViewer"
+                android:textColor="#DD2C00"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+<!--        <com.oghab.mapviewer.mapviewer.FrameView-->
+<!--            android:id="@+id/iv_preview"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:visibility="gone" />-->
+
+    </FrameLayout>
+
+
+</LinearLayout>

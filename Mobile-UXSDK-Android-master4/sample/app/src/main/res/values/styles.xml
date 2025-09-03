@@ -1,0 +1,373 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="android:background">@color/background_blue</item>-->
+        <!--<item name="android:textColor">@color/light_gray</item>-->
+        <!--<item name="android:textColorPrimary">@color/medium_blue</item>-->
+        <!--<item name="android:textColorSecondary">@color/light_gray</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+    <!--</style>-->
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">-->
+    <style name="AppTheme" parent="@style/Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextAppearance">@style/menu_item_appearance</item>
+<!--        <item name="colorPrimary">#FF0000</item>-->
+        <item name="colorSecondary">#DD0000</item>
+<!--        <item name="colorSurface">#FFFFFF</item>-->
+        <item name="colorSurface">#0000FF</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.AlertDialog</item>
+    </style>
+
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="actionMenuTextAppearance">@style/menu_item_appearance</item>-->
+<!--    </style>-->
+
+    <style name="MapTheme" parent="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- OptionsMenu text -->
+    <style name="menu_item_appearance" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+
+    <!-- List divider list -->
+    <style name="set_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <!-- List item value style -->
+    <style name="set_item_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/item_min_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/item_value_size</item>
+        <item name="android:layout_marginRight">15dp</item>
+    </style>
+
+    <!-- List item value style -->
+    <style name="set_item_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/item_min_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/item_title_size</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <!-- List item subtitle style -->
+    <style name="listview_subtitle">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <!-- Common button style -->
+    <style name="common_button">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/round_btn</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="set_dialog" parent="@android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <!-- FPV view style -->
+    <style name="main_camera_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="test_text">
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:textSize">@dimen/test_log_textsize</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <!-- ExpandableList  item title style -->
+    <style name="expandable_item_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/item_min_height</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:textSize">@dimen/item_title_size</item>
+        <item name="android:text">"Item name"</item>
+    </style>
+
+    <!-- ExpandableList  item title style -->
+    <style name="expandable_second_level_item_title" parent="expandable_item_title">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+
+    <!-- ExpandableList item right arrow style -->
+    <style name="expandable_item_right_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/item_min_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/item_value_size</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:text">">"</item>
+    </style>
+
+
+    <!-- ExpandableList item down arrow style -->
+    <style name="expandable_item_down_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/item_min_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/item_value_size</item>
+        <item name="android:layout_marginLeft">@dimen/fab_margin</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin</item>
+        <item name="android:text">"⌄"</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@drawable/common_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/round_btn</item>
+    </style>
+
+    <!-- Base application theme -->
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+<!--        <item name="android:paddingTop">10dp</item>-->
+<!--        <item name="android:paddingBottom">10dp</item>-->
+    </style>
+
+    <style name="roundedImageViewRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!--    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>-->
+<!--    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>-->
+<!--    <style name="AppTheme.PopupOverlay.Dark" parent="ThemeOverlay.MaterialComponents.Light"/>-->
+
+<!--    <style name="AppTheme.Preferences" parent="Theme.MaterialComponents.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Navigation Drawer &ndash;&gt;-->
+<!--    <style name="NavDrawerListItem.Light" parent="Widget.AppCompat.ListView.Menu">-->
+<!--        <item name="android:background">@drawable/navdrawer_item_selectable_light</item>-->
+<!--        <item name="android:shape">oval</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Dark style is set programmatically in NavigationDrawerFragment instead of via style - see #119 &ndash;&gt;-->
+
+<!--    &lt;!&ndash; GNSS Status view &ndash;&gt;-->
+<!--    <style name="info_label">-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:textSize">@dimen/status_text_size</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:paddingRight">4dip</item>-->
+<!--    </style>-->
+
+<!--    <style name="info_value">-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:textSize">@dimen/status_text_size</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--    </style>-->
+
+<!--    <style name="info_value_error">-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:textSize">@dimen/status_text_size</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--        <item name="android:paddingTop">3dp</item>-->
+<!--        <item name="android:paddingBottom">3dp</item>-->
+<!--        <item name="android:paddingLeft">6dp</item>-->
+<!--        <item name="android:paddingRight">6dp</item>-->
+<!--        <item name="android:background">@drawable/error_text_background</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; GNSS Sky view &ndash;&gt;-->
+<!--    <style name="sky_legend_label">-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:textSize">@dimen/sky_legend_text_size_large</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--    </style>-->
+
+<!--    <style name="sky_legend_value">-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:textSize">@dimen/sky_legend_text_size_small</item>-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--    </style>-->
+
+<!--    <style name="cn0_avg_value_in_view">-->
+<!--        <item name="android:textSize">10sp</item>-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--        <item name="android:paddingTop">3dp</item>-->
+<!--        <item name="android:paddingBottom">3dp</item>-->
+<!--        <item name="android:paddingLeft">6dp</item>-->
+<!--        <item name="android:paddingRight">6dp</item>-->
+<!--        <item name="android:background">@drawable/cn0_round_corner_background_in_view</item>-->
+<!--    </style>-->
+
+<!--    <style name="cn0_avg_value_used" parent="cn0_avg_value_in_view">-->
+<!--        <item name="android:background">@drawable/cn0_round_corner_background_used</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; We need our own style for a material button that's just an image without text - see https://github.com/material-components/material-components-android/issues/272 &ndash;&gt;-->
+<!--    <style name="Widget.AppTheme.Button.IconButton" parent="Widget.MaterialComponents.Button.TextButton">-->
+<!--        <item name="android:minWidth">0dp</item>-->
+<!--        <item name="android:insetLeft">0dp</item>-->
+<!--        <item name="android:insetTop">0dp</item>-->
+<!--        <item name="android:insetRight">0dp</item>-->
+<!--        <item name="android:insetBottom">0dp</item>-->
+<!--        <item name="iconGravity">textStart</item>-->
+<!--        <item name="iconPadding">0dp</item>-->
+<!--        <item name="iconTint">@color/colorAccent</item>-->
+<!--    </style>-->
+
+    <style name="DialogTheme" parent="android:Theme.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+<!--    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+    <style name="CustomAlertDialog" parent="Theme.MaterialComponents.Light.DialogWhenLarge">
+        <item name="android:windowBackground">@drawable/popup_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!-- No titles or window float -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="colorAccent">@color/green_dark</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/NeutralButtonStyle</item>
+        <item name="android:textAppearance">@style/MapViewerTextAppearance</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#f00</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">#00f</item>
+    </style>
+
+    <style name="NeutralButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/green_dark</item>
+    </style>
+
+    <style name="NumberPickerText">
+        <item name="android:textSize">48sp</item>
+    </style>
+
+
+    <style name="MapViewerTextAppearance">
+        <item name="android:textColor">@color/blue_dark</item>
+    </style>
+
+    <style name="MapViewerTextAppearanceColored">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MapViewerButtonColored">
+        <item name="android:background">@drawable/mv_btn_colored_material</item>
+        <item name="android:textAppearance">@style/MapViewerTextAppearanceColored</item>
+    </style>
+
+    <style name="ThemeOverlay.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+<!--        <item name="colorSurface">#FFFFFF</item>-->
+        <item name="colorSurface">#0000FF</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/NeutralButtonStyle</item>
+    </style>
+
+    <style name="MapViewer.Base.Button.Colored" parent="android:Widget">
+        <item name="android:background">@drawable/mapviewer_button</item>
+<!--        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>-->
+        <item name="android:textAppearance">@style/MapViewerTextAppearance</item>
+<!--        <item name="android:minHeight">48dp</item>-->
+<!--        <item name="android:minWidth">88dp</item>-->
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="MapViewer.Button.Colored" parent="MapViewer.Base.Button.Colored"/>
+
+</resources>

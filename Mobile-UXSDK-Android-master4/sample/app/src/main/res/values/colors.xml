@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+<!--    <color name="background_blue">#242d34</color>-->
+    <color name="background_blue">#2C7FBF</color>
+    <!--<color name="dark_gray">#80000000</color>-->
+    <color name="medium_blue">#298080</color>
+    <color name="common_text_color">#298080</color>
+
+    <color name="colorPrimary">#314268</color>
+    <color name="colorPrimaryDark">#314268</color>
+    <color name="colorAccent">#314268</color>
+    <color name="colorAccentTransparent">#80314268</color>
+    <color name="title_dark">#212121</color>
+    <color name="gray">#80000000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorGrey">#888888</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="control_background1">#cc4285f4</color>
+    <color name="green">#00ff00</color>
+    <color name="green_dark">#0B7A0B</color>
+
+    <color name="yellow_transparent">#c4ffff00</color>
+    <color name="gray_transparent">#c4808080</color>
+    <color name="received_text_color">#263238</color>
+    <color name="sent_text_color">#FFFFFF</color>
+    <color name="pressed_color">#2196F3</color>
+    <color name="selected_color">#7EFFEB3B</color>
+    <color name="focused_color">#F44336</color>
+
+    <color name="red">#ff0000</color>
+    <color name="red_dark">#4cff0000</color>
+    <color name="red_light">#ffe72b2b</color>
+
+    <color name="black">#000000</color>
+    <color name="black_half">#77000000</color>
+    <color name="black_light">#4C000000</color>
+    <color name="black_medium">#64000000</color>
+    <color name="black_transparent">#b2000000</color>
+    <color name="blue">#20A3F6</color>
+    <color name="blue_40_percent">#6620A3F6</color>
+    <color name="blue_highlight">#ff1fa3f6</color>
+    <color name="blue_light">#ff00d8ff</color>
+    <color name="blue_dark">#3F51B5</color>
+    <color name="blue_sea">#3f00aeff</color>
+    <color name="centerpoint_blue">#3da2f8</color>
+    <color name="centerpoint_green">#58d65c</color>
+    <color name="centerpoint_red">#f14443</color>
+    <color name="centerpoint_yellow">#fbc600</color>
+    <color name="custom_unlock_enabled">#00ff00</color>
+    <color name="custom_unlock_not_sent">#008000</color>
+    <color name="custom_unlock_sent">#00BE00</color>
+    <color name="dark_gray">#80000000</color>
+
+    <color name="selected_color_transparent">#88909090</color>
+    <color name="folder_color">#0099aa</color>
+    <color name="storage_progress_color">#0099aa</color>
+    <color name="fab_color">#0099aa</color>
+
+</resources>
