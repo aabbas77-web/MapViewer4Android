@@ -3,7 +3,7 @@
 # By Dr. Ali Abbas aabbas7@gmail.com
 # Programming Language: Java + NDK CPP
 ## I am trying to revive the programs I developed throughout my long career
-## This Program since 01/06/2022
+## This Program since 01/05/2018
 
 **MapViewer for Android**
 
