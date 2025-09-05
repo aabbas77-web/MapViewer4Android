@@ -15,3 +15,21 @@ https://github.com/aabbas77-web/MapViewer4Android/releases/download/FirstRelease
 
 https://github.com/aabbas77-web/MapViewer4Android/blob/main/AliSoft_MapViewer_for_Android.pdf
 
+🛩️ Drone Solutions Development with DJI Mobile SDK
+
+Throughout my career, I have designed and developed the MapViewer4Android application, which integrates 2D mapping, DJI drone missions, and secure communication via Wi-Fi and DATA SIM. This application leverages the DJI Mobile SDK to provide full control over drones, including flight management, camera operation, mission planning, and real-time data retrieval.
+
+Skills & Technologies Used:
+
+Programming: Java and C++ (via Android NDK)
+
+Drone Control: Full flight and camera control using DJI Mobile SDK
+
+Communication: Integration of Wi-Fi and DATA SIM connectivity for drone communication
+
+Mapping & Missions: Planning and executing missions using offline and online maps
+
+Data Retrieval & Analysis: Real-time data acquisition and analysis from drones
+
+Explore the source code and project details here:
+👉 MapViewer4Android on GitHub
